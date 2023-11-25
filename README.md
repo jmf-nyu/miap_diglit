@@ -1,8 +1,9 @@
-# MIAP Digital Literacy Command Line Guide
+# MIAP Digital Literacy Practice Repository
 
 ![hello world](helloworld.png)
 
-Welcome to the practice repository
+Welcome to the practice repository! 
+See [helpful information about BASH commands](insert link)
 
 [Presentation Slides on Version Control](insert presentation)
 

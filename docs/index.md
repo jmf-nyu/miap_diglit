@@ -1,8 +1,8 @@
-## Digital Literacy Command Line Guide 
+# BASH Commands
 
-# Commands
+Click on a command below to learn more about it's purpose and usage.
 
-* ls
+* [ls](ls.md)
 * mv
 * cd
 * cp

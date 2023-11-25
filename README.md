@@ -3,7 +3,7 @@
 ![hello world](helloworld.png)
 
 Welcome to the practice repository! 
-See [helpful information about BASH commands](insert link)
+See [the command line guide to start working](/docs/index.md)
 
 [Presentation Slides on Version Control](insert presentation)
 

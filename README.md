@@ -3,7 +3,6 @@
 ![hello world](helloworld.png)
 
 Welcome to the practice repository! 
-See [the command line guide to start working](/docs/index.md)
 
 [Presentation Slides on Version Control](insert presentation)
 
@@ -25,21 +24,17 @@ See [the command line guide to start working](/docs/index.md)
 
 5. Always click "Fetch Origin" and merge new changes before starting any new work.
 
-6. Create a new markdown file titled `[command you want to write about].md`. 
-
-7. Hack away on your local computer! Add some text, images, URLs, code snippets to the .md file describing your favorite command in BASH. 
-
-8. Save the .md file.
-
-9. Commit your changes.
-
-10. If you are working on your local computer, push your chages to GitHub.com
-
-11. Submit a pull request.
+6. See [the command line guide to get get an idea of what you're working on](/docs/index.md). Use the entry for [ls](/docs/ls.md) as a template for your new command line page. You can choose from the commands in the list or add a new one.
+7. Create a new markdown file titled `[command you want to write about].md`. Make sure that this is in the `docs` folder.
+8. Hack away on your local computer! Add some text, images, URLs, code snippets to the .md file to describing your command in BASH.
+9. Save your new .md file.
+10. Commit your changes.
+11. If you are working on your local computer, push your chages to GitHub.com
+12. Submit a pull request.
 
 ## Checking the Results
 
-1. Check to make sure the pull request is approved. If it is not approved, you may need to make changes.
+1. Check to make sure the pull request is approved. If it is not approved, you may need to make changes. Check the [GitHub page](https://jmf-nyu.github.io/miap_diglit/)
 
 ## For Reference
 GitHub guide to Markdown: <https://guides.github.com/features/mastering-markdown/>

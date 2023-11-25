@@ -6,6 +6,7 @@ The `ls` command lists the contents of a directory including both files and dire
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
+
 $ `ls [options] [directory path]`
 
 ## Possible Flags
@@ -25,6 +26,6 @@ The `ls` command has many different kinds of outputs as described below:
 
 ## Examples 
 * If you want to see hidden files in a nice list format run $`ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $`ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example $`ls -alRt > ~/Desktop/report.txt`
+* To get a the contents of an entire directory structure starting at a parent folder: $`ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $`ls -alRt ~/Desktop > ~/Desktop/report.txt`
 
 Go back to the [main list of commands](index.md)

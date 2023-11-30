@@ -1,6 +1,5 @@
 # The ls Command
 
-
 ## Summary 
 The `ls` command lists the contents of a directory including both files and directories. The command has many options which are described below. 
 
@@ -22,7 +21,11 @@ When used the `-l` flag, the `-h` flag displays file size in human-readable unit
 
 ## Output
 The `ls` command has many different kinds of outputs as described below:
+* Standard output with no flags, which displays the names of directories and files within the directory where the command is run:
+![screenshot of ls output](ls_no-flags.png)
 
+* Output with `-l` flag, which displays directories and files in a list form with metadata in colums:
+![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 
 * If you want to see hidden files in a nice list format run $`ls -la ~`. The `~` would indicate your home folder.

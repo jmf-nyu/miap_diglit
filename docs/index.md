@@ -4,7 +4,7 @@ Click on a command below to learn more about it's purpose and usage.
 
 * [ls](ls.md)
 * mv
-* cd
+* [cd](cd.md)
 * cp
 * rm
 * man

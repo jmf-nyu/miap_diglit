@@ -1,7 +1,11 @@
 # The man Command
 
 ## Summary 
-The `man` command lists the contents of a directory including both files and directories. The command has many options which are described below. 
+The `man` command in Linux is used to display the user manual of any command that we can run on
+the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS,
+DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES,
+AUTHORS and SEE ALSO.
+Every manual is divided into
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

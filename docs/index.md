@@ -9,5 +9,5 @@ Click on a command below to learn more about it's purpose and usage.
 * rm
 * man
 * du
-* [nano](nano)
+* [nano](nano.md)
 * cat

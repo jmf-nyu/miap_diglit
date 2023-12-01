@@ -18,18 +18,13 @@ $ `mv [source file name] [destination path]`
 The `-f` flag makes it so you are not prompted for confirmation before overwriting the destination file. 
 
 ### `-i`
-The `-i` flag 
+The `-i` flag prompts confirmation before moving a file or directory to an existing path name. 
 
-### `-n`
-When used the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+### `-v`
+The `-v` flag is to make the output verbose, printing the names and destinations of files after they are moved. 
 
-## -i
-The `i` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
+## Output
 
-## -v
-![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 
 * If you want to see hidden files in a nice list format run $`ls -la ~`. The `~` would indicate your home folder.

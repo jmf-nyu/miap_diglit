@@ -1,14 +1,16 @@
 # The mv Command
 
 ## Summary 
-The `ls` command lists the contents of a directory including both files and directories. The command has many options which are described below. 
+The `mv` command moves files. The mv command can either rename files or move them to a different directory or location. 
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `ls [options] [directory path]`
+For renaming files: 
+$ `mv [source file name] [destination file name]`
 
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
+For moving file to different location 
+$ `mv [source file name] [destination path]`
 
 ## Possible Flags
 

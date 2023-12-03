@@ -10,7 +10,7 @@ Welcome to the practice repository!
 
 2. Install GitHub Desktop on your computer: <https://desktop.github.com/>
 
-## Practice Excercise
+## How to Start the Practice Excercise
 
 1. Go to <https://github.com/jmf-nyu/miap_diglit> and fork the repository by clicking the "Fork" button in the top right corner of the browser window. This will create a copy of the repository in your own account.
 

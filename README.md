@@ -10,7 +10,7 @@ Welcome to the practice repository!
 
 2. Install GitHub Desktop on your computer: <https://desktop.github.com/>
 
-## Practice Excercise
+## How to Start the Practice Excercise
 
 1. Go to <https://github.com/jmf-nyu/miap_diglit> and fork the repository by clicking the "Fork" button in the top right corner of the browser window. This will create a copy of the repository in your own account.
 
@@ -32,7 +32,7 @@ Welcome to the practice repository!
 
 ## Checking the Results
 
-1. Check to make sure the pull request is approved. If it is not approved, you may need to make changes. Check the [GitHub page](https://jmf-nyu.github.io/miap_diglit/)
+1. Check to make sure the pull request is approved. If it is not approved, you may need to make changes. Make your pull request a draft. Make the changes on your fork. Then resubmit the pull request.
 
 ## For Reference
 GitHub guide to Markdown: <https://guides.github.com/features/mastering-markdown/>

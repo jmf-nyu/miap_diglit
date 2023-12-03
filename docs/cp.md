@@ -31,6 +31,6 @@ With `-p` option cp preserves the following characteristics of each source file 
 The star wildcard represents anything i.e., all files and directories. Suppose we have many texts documents in a directory and want to copy it to another directory, it takes lots of time if we copy files 1 by 1 or command becomes too long if specify all these file names as the argument, but by using * wildcard it becomes simple.
 
 ## Output
-The `cp` command is an essential tool which is used for copying files or groups of files and directories in Unix-Like operating systems. If we talk about its syntax it takes at least two filenames in as an argument (source and destination). As mentioned, the command has three principles: copying two file names, copying one or more arguments, and copying two directory names. Then we also mention the multiple options available while using `cp` command: `-i` , `-b` , `-f“ , `-r` , `-p`. To work with easy in Unix shell for file management one should know the proper working of `cp` command. 
+The `cp` command can provide verbose output using the `-v` flag that displays information about the copied file in the current working directory, the copy operation in progress, and any errors that occur during the copy process.
 
 Go back to the [main list of commands](index.md)

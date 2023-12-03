@@ -19,7 +19,7 @@ The `-a` flag shows files that are normally hidden by BASH. These are files that
 The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
 
 ### `-h`
-When using the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
 
 ## Output
 The `ls` command has many different kinds of outputs as described below:

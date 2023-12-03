@@ -4,8 +4,8 @@ Click on a command below to learn more about it's purpose and usage.
 
 * [ls](ls.md)
 * mv
+* [cp](cp.md)
 * [cd](cd.md)
-* cp
 * rm
 * man
 * du

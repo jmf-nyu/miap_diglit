@@ -13,4 +13,4 @@ As is normal in most text editors, text that you type into nano is inserted at t
 
 
 ## Quitting Nano
-To quit `nano`, use the Ctrl+X key combination. If the file you are working on has been modified since the last time you saved it, you will be prompted to save the file first. Type y to save the file, or n to exit nano without saving the file.
+To quit `nano`, use the Ctrl+X key combination. If the file you are working on has been modified since the last time you saved it, you will be prompted to save the file first. Type y to save the file, or n to exit without saving the file.

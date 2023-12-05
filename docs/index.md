@@ -8,6 +8,6 @@ Click on a command below to learn more about it's purpose and usage.
 * [cd](cd.md)
 * [rm](rm.md)
 * man
-* du
+* [du](du.md)
 * [nano](nano.md)
 * cat

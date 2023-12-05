@@ -6,7 +6,7 @@ Click on a command below to learn more about it's purpose and usage.
 * mv
 * [cp](cp.md)
 * [cd](cd.md)
-* rm
+* [rm](rm.md)
 * man
 * du
 * [nano](nano.md)

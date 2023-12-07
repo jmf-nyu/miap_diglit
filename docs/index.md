@@ -3,7 +3,7 @@
 Click on a command below to learn more about it's purpose and usage.
 
 * [ls](ls.md)
-* mv
+* [mv](mv.md) 
 * [cp](cp.md)
 * [cd](cd.md)
 * [rm](rm.md)

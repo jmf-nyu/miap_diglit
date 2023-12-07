@@ -9,10 +9,10 @@ https://www.nielit.gov.in/gorakhpur/sites/default/files/Gorakhpur/Alevel_unix_27
 
 Every manual is divided into the following sections:
 
-Executable programs or shell commands
-System calls (functions provided by the kernel)
-Library calls (functions within program libraries
-Games
+* Executable programs or shell commands
+* System calls (functions provided by the kernel)
+* Library calls (functions within program libraries
+* Games
 
 Special files (usually found in /dev)
 File formats and conventions eg /etc/passwd

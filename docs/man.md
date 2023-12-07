@@ -4,8 +4,7 @@
 The `man` command in Linux is used to display the user manual of any command that we can run on
 the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS,
 DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES,
-AUTHORS and SEE ALSO.
-https://www.nielit.gov.in/gorakhpur/sites/default/files/Gorakhpur/Alevel_unix_27april20_AKM.pdf
+AUTHORS and SEE ALSO. See [this guide](https://www.nielit.gov.in/gorakhpur/sites/default/files/Gorakhpur/Alevel_unix_27april20_AKM.pdf) for more information.
 
 Every manual is divided into the following sections:
 

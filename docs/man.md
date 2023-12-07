@@ -13,11 +13,11 @@ Every manual is divided into the following sections:
 * Library calls (functions within program libraries
 * Games
 
-*Special files (usually found in /dev)
-*File formats and conventions eg /etc/passwd
-*Miscellaneous (including macro packages and conventions), e.g. groff(7)
-*System administration commands (usually only for root)
-*Kernel routines [Non standard]
+* Special files (usually found in /dev)
+* File formats and conventions eg /etc/passwd
+* Miscellaneous (including macro packages and conventions), e.g. groff(7)
+* System administration commands (usually only for root)
+* Kernel routines [Non standard]
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

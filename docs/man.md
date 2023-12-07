@@ -23,7 +23,7 @@ Kernel routines [Non standard]
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `man [options] [directory path]`
+$ `man [options] [name of command]`
 
 ## Possible Flags
 

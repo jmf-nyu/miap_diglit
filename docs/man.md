@@ -27,13 +27,13 @@ $ `man [options] [name of command]`
 ## Possible Flags
 
 ### `-a`
-The `-a` flag helps users search and skips to current screen. This option helps us to display all the available intro manual pages in succession.
-See: 
-https://www.geeksforgeeks.org/man-command-in-linux-with-examples/
+By default, man will exit after displaying the most suitable manual page it finds.  Using this option forces man to display all the manual pages with names that match the search criteria. [Source](https://man7.org/linux/man-pages/man1/man.1.html)
 
-### `-?`
-The `-?` flag  displays help (from command line).
-See: Terminal
+### `-I`
+The `-I` flag earch for manual pages case-sensitively. [Source](https://man7.org/linux/man-pages/man1/man.1.html)
+
+### `-u`
+The `-u` flag causes man to update its database caches of installed manual pages.  This is only needed in rare situations, and it is normally better to run mandb(8) instead. [Source](https://man7.org/linux/man-pages/man1/man.1.html)
 
 
 ## Output

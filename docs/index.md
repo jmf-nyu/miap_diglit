@@ -7,7 +7,7 @@ Click on a command below to learn more about it's purpose and usage.
 * cd
 * cp
 * rm
-* [man] (man.md)
+* [man](man.md)
 * du
 * nano
 * cat

@@ -23,11 +23,7 @@ The `-i` flag prompts confirmation before moving a file or directory to an exist
 ### `-v`
 The `-v` flag is to make the output verbose, printing the names and destinations of files after they are moved. 
 
-## Output
-
-
 ## Examples 
-* If you want to see hidden files in a nice list format run $`ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $`ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $`ls -alRt ~/Desktop > ~/Desktop/report.txt`
+* <img width="478" alt="Screen Shot 2023-12-07 at 11 44 22 AM" src="https://github.com/jadelgadillo2/miap_diglit/assets/146748290/384c52fb-0340-4a2d-9f2c-05a6021603a8">
 
 Go back to the [main list of commands](index.md)

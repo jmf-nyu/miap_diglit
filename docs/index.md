@@ -8,6 +8,10 @@ Click on a command below to learn more about it's purpose and usage.
 * cp
 * rm
 * [man](man.md)
+* [cp](cp.md)
+* [cd](cd.md)
+* [rm](rm.md)
+* man
 * du
-* nano
+* [nano](nano.md)
 * cat

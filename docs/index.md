@@ -8,7 +8,7 @@ Click on a command below to learn more about it's purpose and usage.
 * [cp](cp.md)
 * [cd](cd.md)
 * [rm](rm.md)
+* [du](du.md)
 * [man](man.md)
-* du
 * [nano](nano.md)
 * cat

@@ -11,4 +11,4 @@ Click on a command below to learn more about it's purpose and usage.
 * [du](du.md)
 * [man](man.md)
 * [nano](nano.md)
-* cat
+* [cat](cat.md)

@@ -1,4 +1,3 @@
-$ `ssh [directory path]`
 
 # SSH: Secure Shell 
 

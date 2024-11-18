@@ -1,3 +1,5 @@
+$ `ssh [directory path]`
+
 # SSH: Secure Shell 
 
 SSH, or Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network. It's most commonly used to access remote machines and execute commands, but it also supports tunneling, forwarding TCP ports, and X11 connections. 

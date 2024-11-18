@@ -14,13 +14,13 @@ Note: If you do not specify a directory path, running `cd` will land you on your
 
 ### `/`
 The `/` argument can change the directory to the root directory. The root directory is the first directory in your filesystem hierarchy. 
-![screenshot of cd /](cd/.png).
+![screenshot of cd](cd.png).
 Above, / represents the root directory.
 #### How to move inside a directory from a directory
 This command is used to move inside a directory from a directory. 
 $ `cd dir_1/dir_2/dir_3`
 Here, replace “dir_1/dir_2/dir_3” with your sub directory name or location you want to move in. For example:
-![screenshot of cd /1](cd/1.png).
+![screenshot of cd1](cd1.png).
 
 ### `~`
 The `~` is used in `cd` command to change the directory to the home directory from any location in Linux System.

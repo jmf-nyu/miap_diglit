@@ -13,17 +13,15 @@ into your command line.
 
 ## Examples of specific ways to use mediainfo
 Display aspect ratio
-$ mediainfo --Inform="Video;%DisplayAspectRatio%" Mi'at Wajeh Li Yawm Wahed (1972).mkv 
-$ mediainfo --Inform="Video;file://Video.txt" Mi'at Wajeh Li Yawm Wahed (1972).mkv 
+* $ mediainfo --Inform="Video;%DisplayAspectRatio%" Mi'at Wajeh Li Yawm Wahed (1972).mkv 
+* $ mediainfo --Inform="Video;file://Video.txt" Mi'at Wajeh Li Yawm Wahed (1972).mkv 
 
 Display aspect ratio and audio format
        * $mediainfo --Inform="file://Text.txt Mi'at Wajeh Li Yawm Wahed (1972).mkv
 
         If Text.txt contains:
-
         * "Video;%DisplayAspectRatio%"
         Then the display aspect ratio is printed out. 
-
         * "Audio;%Format%"
         Then the audio format is printed out.
         

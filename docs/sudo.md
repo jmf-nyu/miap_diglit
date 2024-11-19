@@ -9,6 +9,16 @@ The basis format of the `sudo` command is as follows. For the description below,
 
 $ `sudo <command>`
 
+Note: If the user tries to run this command without including `sudo` and does not have the necessary permissions, the host system will return a message stating that access is denied. By including `sudo`, the user can now retrieve and edit the file's contents at the privileged level.
+
+## Possible Flags 
+
+### `-p`
+The `-p` flag uses a custom password prompt with optional escape sequences.
+
+### `-u`
+The `-u` flag is used when you want to run the command as a user other than the default target user (usually root). 
+
 ## Output
 The `ls` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:

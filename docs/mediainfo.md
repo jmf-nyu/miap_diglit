@@ -19,10 +19,14 @@ Display aspect ratio
 Display aspect ratio and audio format
        * $mediainfo --Inform="file://Text.txt Mi'at Wajeh Li Yawm Wahed (1972).mkv
 
-        If Text.txt contains:
-        * "Video;%DisplayAspectRatio%"
-        Then the display aspect ratio is printed out. 
-        * "Audio;%Format%"
-        Then the audio format is printed out.
+If Text.txt contains:
+        
+  * "Video;%DisplayAspectRatio%"
+
+Then the display aspect ratio is printed out. 
+
+  * "Audio;%Format%"
+    
+Then the audio format is printed out.
         
 Go back to the [main list of commands](index.md)

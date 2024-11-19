@@ -1,4 +1,4 @@
-# apt in the Command Line!
+# apt BASH in the Command Line!
 
 ## Summary 
 
@@ -37,7 +37,6 @@ Installs new software packages
 ## Outputs using apt Command
 
 * **Output with `update` argument**
-The `update` argument
 ![screenshot of update output](sudo_update.png "sudo apt update output") 
 
 * **Output with `upgrade` argument**

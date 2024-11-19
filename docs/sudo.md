@@ -28,8 +28,9 @@ The `ls` command has many different kinds of outputs as described below:
 ![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+* If you want to get the lastest updates or upgrade your server, run $ `sudo apt update` and $ `sudo apt upgrade`.
+* If you want to reboot your machine, run `sudo reboot`.
+* To install software, run `sudo apt install <software>`.
 
 Go back to the [main list of commands](index.md)
 

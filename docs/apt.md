@@ -34,15 +34,16 @@ Installs new software packages
 <p> Example </p>
 <p> $ sudo apt install </p> 
 
+## Outputs using apt Command
 
-## Output with `update` argument**
+* **Output with `update` argument**
 The `update` argument
-![screenshot of update output](sudo_update.png) 
+![screenshot of update output](sudo_update.png "sudo apt update output") 
 
 * **Output with `upgrade` argument**
-![screenshot of upgrade output](sudo_upgrade.png)
+![screenshot of upgrade output](sudo_upgrade.png "sudo apt upgrade output")
 
 * **Output with `install` argument**
-![screenshot of install output](sudo_install.png)
+![screenshot of install output](sudo_install.png "sudo apt install output")
 
 Go back to the [main list of commands](index.md)

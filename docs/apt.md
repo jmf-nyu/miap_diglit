@@ -35,12 +35,14 @@ Installs new software packages
 <p> $ sudo apt install </p> 
 
 
-## Output
-The `update` argumen
-![screenshot of update output](image)
+## Output with `update` argument**
+The `update` argument
+![screenshot of update output](sudo_update.png) 
 
 * **Output with `upgrade` argument**
-![screenshot of upgrade output](image)
+![screenshot of upgrade output](sudo_upgrade.png)
 
+* **Output with `install` argument**
+![screenshot of install output](sudo_install.png)
 
 Go back to the [main list of commands](index.md)

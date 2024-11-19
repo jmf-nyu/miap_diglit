@@ -21,18 +21,18 @@ Note: check your spelling, use tab completion
 
 ### `update`
 Updates package lists from repositories
-Example 
-  $ sudo apt update
+<p> Example </p>
+ <p> $ sudo apt update </p>
 
 ### `upgrade`
 Upgrades installed packages to their latest versions
-Example
-  $ sudo apt upgrade
+<p> Example </p>
+<p> $ sudo apt upgrade </p> 
 
 ### `install`
 Installs new software packages
-Example
-  $ sudo apt install
+<p> Example </p>
+<p> $ sudo apt install </p> 
 
 
 ## Output

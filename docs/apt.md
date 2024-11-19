@@ -20,17 +20,17 @@ Note: check your spelling, use tab completion
 ## Possible Arguments
 
 ### `update`
-# Updates package lists from repositories
+Updates package lists from repositories
 Example 
   $ sudo apt update
 
 ### `upgrade`
-# Upgrades installed packages to their latest versions
+Upgrades installed packages to their latest versions
 Example
   $ sudo apt upgrade
 
 ### `install`
-# Installs new software packages
+Installs new software packages
 Example
   $ sudo apt install
 

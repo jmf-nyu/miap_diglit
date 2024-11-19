@@ -28,3 +28,5 @@ This command does not output a message. The ls or stat command would need to be 
 ```
 ls -l /var/www/html/omeka/
 ```
+This is a screenshot showing the modes for each file and directory in the path: 
+![Screenshot 2024-11-18 at 8 07 31 PM](https://github.com/user-attachments/assets/1e700843-e948-439e-91ce-eaa1b08d25c1)

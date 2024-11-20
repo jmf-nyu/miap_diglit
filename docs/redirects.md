@@ -1,7 +1,14 @@
 # Redirects - WIP
 
 ## Summary 
-The `ls` command lists the contents of a directory including both files and directories. The command has many options which are described below. 
+Redirection assists in redirecting input & output functionalities to the files or folders we want. There are 2 types of redirection:
+### 1. Overwrite Redirection
+The `>` command
+This will store/save the output of a command to a file & overwrite existing content of that file. 
+### 2. Append Redirection
+The `>>` command 
+This will redirect the standard output of a command on the left of `>>` & append it to the end of the file on the right of `>>` - this will not compromise the existing data of the file it is added to. 
+
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

@@ -55,10 +55,10 @@ These do not include any web server errors like 404 or 403.
 * **Sucessful download, correct URL** with no flags, which downloads a public domain film to the current working directory:
 ![screenshot of good url wget output](correct.png)
 
-* **Output with `-l` flag** 
+* **Unsucessful download, incorrect URL** 
 ![screenshot of bad wget output](incorrect.png)
 
 ## Example
-* If you want to download a file in the background, use command $`wget -b ~`, where `~`is the URL of the file without any quotation marks.
+* If you want to download a file in the background, use command $`wget -b ~`, where `~` is the URL of the file without any quotation marks.
 
 Go back to the [main list of commands](index.md)

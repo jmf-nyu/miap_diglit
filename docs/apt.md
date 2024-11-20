@@ -13,7 +13,7 @@
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `sudo apt [argument]
+$ sudo apt [argument]
 
 Note: check your spelling, use tab completion  
 

@@ -12,11 +12,11 @@ $ `cURL [options] [url]`
 ![screenshot of cURL flags](cURL_flags.png)
 
 In order to view this list in Terminal use:
+
 $ `cURL -h`
 
 ## Output
-Examples of possible outputs:
-
-
+Example of a possible output:
+![screenshot of cURL output]()
 
 ## Sources for further information

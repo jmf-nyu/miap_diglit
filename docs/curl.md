@@ -9,6 +9,7 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 $ `cURL [options] [url]`
 
 ## Possible Flags
+
 ![screenshot of cURL flags](cURL_flags.png)
 
 In order to view this list in Terminal use:
@@ -17,6 +18,8 @@ $ `cURL -h`
 
 ## Output
 Example of a possible output:
-![screenshot of cURL output]()
+$ `cURL https://developer.ibm.com/articles/what-is-curl-command`
 
-## Sources for further information
+![screenshot of cURL output](cURL_output.png)
+
+This example, not a complete image due to size of results, depicts how data is pulled from the indicated location or server.

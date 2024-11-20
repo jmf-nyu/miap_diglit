@@ -20,6 +20,6 @@ $ `cURL -h`
 Example of a possible output:
 $ `cURL https://developer.ibm.com/articles/what-is-curl-command`
 
-![screenshot of cURL output](cURL_output.png)
+![screenshot of cURL output](cURL_output2.png)
 
 This example, not a complete image due to size of results, depicts how data is pulled from the indicated location or server.

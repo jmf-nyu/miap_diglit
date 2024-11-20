@@ -18,6 +18,7 @@ $ `cURL -h`
 
 ## Output
 Example of a possible output:
+
 $ `cURL https://developer.ibm.com/articles/what-is-curl-command`
 
 ![screenshot of cURL output](cURL_output2.png)

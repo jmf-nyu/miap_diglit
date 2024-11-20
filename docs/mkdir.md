@@ -17,7 +17,7 @@ The `-m` flag sets permission mode.
 The `-p` flag makes parent directories as needed.  
 
 ### `-v`
-The '-v' flag prints a message for each created directory. 
+The `-v` flag prints a message for each created directory. 
 
 ## Output
 The `mkdir` command has a few different kinds of outputs as described below:

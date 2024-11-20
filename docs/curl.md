@@ -9,7 +9,14 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 $ `cURL [options] [url]`
 
 ## Possible Flags
+![screenshot of cURL flags](cURL_flags.png)
 
-##
+In order to view this list in Terminal use:
+$ `cURL -h`
+
+## Output
+Examples of possible outputs:
+
+
 
 ## Sources for further information

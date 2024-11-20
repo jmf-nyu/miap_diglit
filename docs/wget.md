@@ -19,7 +19,7 @@ The `-P` flag specifies a path/directory to where the file(s) are downloaded.
 The `-b` flag downloads in the background, further commands can be inputted even if the file(s) have not been fully downloaded yet.
 
 ### `-i`
-Allows the urls to be extracted from an external file such as a .txt file, however each url must be line-delineated.
+Allows the urls to be extracted from an external file such as a .txt file, however each URL must be line-delineated.
 
 ## Output
 The `wget` command has a variety of error codes that can be outputted to a text file if used with `O`. These include:
@@ -55,7 +55,7 @@ These do not include any web server errors like 404 or 403.
 * **Sucessful download, correct URL** with no flags, which downloads a public domain film to the current working directory:
 ![screenshot of good url wget output](correct.png)
 
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
+* **Output with `-l` flag** 
 ![screenshot of bad wget output](incorrect.png)
 
 ## Example

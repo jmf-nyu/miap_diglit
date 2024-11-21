@@ -34,5 +34,5 @@ Most modern operating systems come with an SSH client pre-installed. To connect 
 
 **Basic SSH command syntax:**
 
-```bash
+```bash```
 ssh username@hostname_or_IP_address

@@ -36,3 +36,5 @@ Most modern operating systems come with an SSH client pre-installed. To connect 
 
 ```bash```
 ssh username@hostname_or_IP_address
+
+Go back to the [main list of commands](index.md)

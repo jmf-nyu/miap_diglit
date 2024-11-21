@@ -2,13 +2,13 @@
 
 ## Summary 
 
-<p> What is the apt BASH command? </p>
+What is the apt BASH command?
 
-<p> I am so glad you asked! </p>
+I am so glad you asked!
 
-<p> Used to install software packages through the command line, apt has many applications that make it exceptionally helpful for unpacking updates and new software. </p>
+Used to install software packages through the command line, apt has many applications that make it exceptionally helpful for unpacking updates and new software.
 
-<p> In order to use this command, you must have sudo/super-user privileges on your server or computer. If you are using your personal computer, you should be able to use this command without getting sudo permissions. </p>
+In order to use this command, you must have sudo/super-user privileges on your server or computer. If you are using your personal computer, you should be able to use this command without getting sudo permissions.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
@@ -21,18 +21,18 @@ Note: check your spelling, use tab completion
 
 ### `update`
 Updates package lists from repositories
-<p> Example </p>
- <p> $ sudo apt update </p>
+Example
+    $ sudo apt update
 
 ### `upgrade`
 Upgrades installed packages to their latest versions
-<p> Example </p>
-<p> $ sudo apt upgrade </p> 
+Example
+    $ sudo apt upgrade 
 
 ### `install`
 Installs new software packages
-<p> Example </p>
-<p> $ sudo apt install </p> 
+Example
+    $ sudo apt install
 
 ## Outputs using apt Command
 

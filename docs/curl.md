@@ -8,6 +8,10 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 
 $ `cURL [options] [url]`
 
+You can also utilize the command format below for the same results.
+
+$ `cURL`
+
 ## Possible Flags
 
 ![screenshot of cURL flags](cURL_flags.png)
@@ -24,3 +28,5 @@ $ `cURL https://developer.ibm.com/articles/what-is-curl-command`
 ![screenshot of cURL output](cURL_output2.png)
 
 This example, not a complete image due to size of results, depicts how data is pulled from the indicated location or server.
+
+Go back to the [main list of commands](index.md)

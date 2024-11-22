@@ -10,7 +10,7 @@ $ `cURL [options] [url]`
 
 You can also utilize the command format below for the same results.
 
-$ `cURL`
+$ `curl`
 
 ## Possible Flags
 

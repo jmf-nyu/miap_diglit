@@ -22,7 +22,7 @@ The `-b` flag downloads in the background, further commands can be inputted even
 Allows the urls to be extracted from an external file such as a .txt file, however each URL must be line-delineated.
 
 ## Output
-The `wget` command has a variety of error codes that can be outputted to a text file if used with `O`. These include:
+The `wget` command has a variety of error codes that can be outputted to a text file if used with `-O`. These include:
 0
 No problems occurred.
 

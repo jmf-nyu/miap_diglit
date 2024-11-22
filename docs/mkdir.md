@@ -25,7 +25,7 @@ The `mkdir` command has a few different kinds of outputs as described below:
 ![screenshot of mkdir command](mkdir.png)
 
 * **Output with `-v` flag**, which prints a message in the command line pertaining to the directory:
-![screenshot of v flag output](mkdir_v-flag.png)
+![screenshot of v flag output](example_mkdir-vjake.png)
 
 ## Examples 
 * If you want to create multiple directories run $ `mkdir [directory name] [directory name]`.

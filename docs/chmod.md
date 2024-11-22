@@ -20,9 +20,9 @@ Recursive, which will include objects in subdirectories. This option must be inp
 Verbose, which shows changed objects (and doesn’t show unchanged objects)
 
 ## Modes
-Modes specify the read, write, and execute access, respectively for the three classes of user, group, and others. This is represented as a numerical value, typically 3 characters in length. A mode of 755 is typical, and will make a file readable and executable by all three user groups, and writable by the owner only. The section entitled "Numeric method" on [this web page]([url](https://linuxize.com/post/chmod-command-in-linux/)) explains what different modes mean in terms of permissions.
+Modes specify the read, write, and execute access, respectively for the three classes of user, group, and others. This is represented as a numerical value, typically 3 characters in length. A mode of 755 is typical, and will make a file readable and executable by all three user groups, and writable by the owner only. The section entitled "Numeric method" on this web page explains what different modes mean in terms of permissions: https://linuxize.com/post/chmod-command-in-linux/ 
 
-## Output
+## Output 
 This command does not output a message. The ls or stat command would need to be used in order to show that the changes were made and saved correctly. To check if the change of the root folder permissions worked as intended in our Omeka setup, the following command would be run: 
 `ls -l /var/www/html/omeka/`
 

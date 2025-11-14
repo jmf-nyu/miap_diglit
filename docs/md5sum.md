@@ -7,7 +7,7 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 
 $ `md5sum [file path]`
 
-Note: md5sum can be used to generate checksum for multiple files. For example, one simple way to generate checksums for all the files in a directory is to first navigate to the directory, use the command $ `md5sum * > md5checksums.txt`, it will generate the checksums for all the files in the directory and save it to the txt file. 
+Note: The md5sum command can be used to generate checksum for multiple files. For example, one simple way to generate checksums for all the files in a directory is to first navigate to the directory, use the command $ `md5sum * > md5checksums.txt`, it will generate the checksums for all the files in the directory and save it to the txt file. 
 
 ## Possible Flags
 

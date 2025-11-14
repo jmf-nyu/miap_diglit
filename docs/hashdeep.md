@@ -1,4 +1,3 @@
-
 # The hashdeep Command
 
 ## Summary 

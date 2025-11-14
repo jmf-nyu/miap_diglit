@@ -1,35 +1,29 @@
 # The md5sum Command
 
 ## Summary 
-The `md5sum` command creates a checksum for a file in the directory stated.
+The `md5sum` command creates a checksum for a file in the file path stated.
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `md5sum [directory path]`
+$ `md5sum [file path]`
 
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
+Note: md5sum can be used to generate checksum for multiple files. For example, one simple way to generate checksums for all the files in a directory is to first navigate to the directory, use the command $ `md5sum * > md5checksums.txt`, it will generate the checksums for all the files in the directory and save it to the txt file. 
 
 ## Possible Flags
 
-### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+### `-c`
+The `-c` flag reads MD5 sums from given files and then checks them. 
 
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+### `-b`
+The `-b` flag reads the result in binary mode. On Windows all files are read in binary mode, while on other OSes the files are read in the default mode. This flag specifies that the files would be read in binary mode. 
 
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
-
-## Output
-The `ls` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
-
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
+### `-quiet`
+The `-quiet` option is useful only when verifying checksums. It prohibits printing OK for each successfully verified file. It can be useful when verifying many files and you only wanted to be alerted to failed verification rather than successful ones. 
 
 ## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+* If you want to perform checksum on a single file, start going to the directory where your file is located at or simply specifying the file path and perform $ `md5sum [file]`
+  <img width="565" height="101" alt="Screenshot 2025-11-14 at 10 42 32 AM" src="https://github.com/user-attachments/assets/70a32de6-5e07-47fa-8f73-45e9ada182dd" />
+* To get a checksum report for all the files in a directory, start going to the directory. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example also shown in the image above: $ `md5sum * > mdchecksums.txt`. It will then create a txt file named mdchecksums and contain all the checksums of the files in the directory. To view the result of the txt file, use nano mdchecksums.txt. Below is the content of the txt files generated.
+  <img width="566" height="207" alt="Screenshot 2025-11-14 at 10 42 22 AM" src="https://github.com/user-attachments/assets/b7d35018-924c-4aae-8480-33dee7809c27" />
 
 Go back to the [main list of commands](index.md)

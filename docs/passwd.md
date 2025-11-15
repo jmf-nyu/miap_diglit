@@ -1,30 +1,29 @@
 # The passwd Command
 
 ## Summary 
-The `passwd` command allows a user to change their password. It can also allow superusers to change passwords for any other users. The command has many options which are described below. 
+The `passwd` command allows a user to set or change their password. It also allows superusers to change passwords for any other users. The command has many options which are described below. 
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `ls [options] [directory path]`
+$ `passwd [options] [userid]`
 
 Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
 
 ## Possible Flags
 
-### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+### `-d`
+The `-d` flag deletes a user's password. This allows the user to set a new password.
 
 ### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+The `-l` flag locks the account of the user named in this command. The user will no longer be able to login with their previously set password.
 
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+### `-u`
+The `-u` flag unlocks the account of the user named in this command. 
 
 ## Output
-The `ls` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
+The `passwd` command has many different kinds of outputs as described below:
+* **Standard output** with no flags or userid specified, the `passwd` command changes the password for the current user. 
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)

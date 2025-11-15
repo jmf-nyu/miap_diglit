@@ -1,7 +1,7 @@
-# The ls Command
+# The passwd Command
 
 ## Summary 
-The `ls` command lists the contents of a directory including both files and directories. The command has many options which are described below. 
+The `passwd` command allows a user to change their password. It can also allow superusers to change passwords for any other users. The command has many options which are described below. 
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

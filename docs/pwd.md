@@ -8,7 +8,9 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 
 $ `pwd`
 
-When navigating files and directories in the terminal, `pwd` shows where you are in the filesystem.
+When navigating through files and directories in the terminal, `pwd` shows where you are in the filesystem.
+
+## Flags
 
 ## Output
 The `ls` command has many different kinds of outputs as described below:

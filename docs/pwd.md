@@ -22,7 +22,7 @@ The `-l` flag gives a column view of files and directories. It also gives inform
 The `pwd` command writes to standard output the full path name of your current directory (from the root directory). All directories are separated by a / (slash). 
 The root directory is represented by the first /, and the last directory named is your current directory. 
 * **Standard output**
-![screenshot of pwd output](docs/$pwd_Codecademy.png)
+![screenshot of pwd output]($pwd_Codecademy.png)
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)

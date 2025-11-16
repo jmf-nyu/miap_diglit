@@ -22,7 +22,7 @@ The last directory named is your *current directory*.
 
 ## Examples 
 Entering 
-![screenshot of pwd user]()
+![screenshot of pwd user](pwd_user.png)
 Displays the current directory as:
 ![screenshot of pwd current directory]()
 

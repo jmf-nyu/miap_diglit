@@ -1,7 +1,7 @@
 # The pwd Command
 
 ## Summary 
-Command `pwd` "print working directory" outputs the name of the directory you are currently in, called working directory.
+Command `pwd` _print working directory_ outputs the name of the directory you are currently in, called *working directory*.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

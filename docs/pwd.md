@@ -12,8 +12,10 @@ When navigating through files and directories in the terminal, `pwd` shows where
 
 ## Output
 The `pwd` command writes to standard output the full path name of your current directory (from the root directory). 
-All directories are separated by a / (slash). 
+All directories are separated by a / (slash).
+
 The root directory is represented by the first /
+
 The last directory named is your *current directory*. 
 * **Standard output**
   

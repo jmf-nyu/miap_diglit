@@ -10,12 +10,19 @@ $ `pwd`
 
 When navigating through files and directories in the terminal, `pwd` shows where you are in the filesystem.
 
-## Flags
+## Possible Flags
+
+### `-L`
+The `-L` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+
+### `-P`
+The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
 
 ## Output
-The `ls` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
+The `pwd` command writes to standard output the full path name of your current directory (from the root directory). All directories are separated by a / (slash). 
+The root directory is represented by the first /, and the last directory named is your current directory. 
+* **Standard output**
+![screenshot of pwd output]()
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)

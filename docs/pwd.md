@@ -16,6 +16,7 @@ All directories are separated by a / (slash).
 The root directory is represented by the first /
 The last directory named is your *current directory*. 
 * **Standard output**
+  
 ![screenshot of pwd output]($pwd_Codecademy.png)
 
 

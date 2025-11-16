@@ -17,14 +17,18 @@ The root directory is represented by the first /
 The last directory named is your *current directory*. 
 * **Standard output**
   
-![screenshot of pwd output]($pwd_Codecademy.png)
+![screenshot of pwd output](pwd_Codecademy.png)
 
 
 ## Examples 
-Entering 
+Entering:
+
 ![screenshot of pwd user](pwd_user.png)
-Displays the current directory as:
+
+displays the current directory as:
+
 ![screenshot of pwd current directory](pwd_user_display.png)
+
 
 Go back to the [main list of commands](index.md)
 

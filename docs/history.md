@@ -1,7 +1,11 @@
 # The history Command
 
 ## Summary 
-The `history` command allows you to display or manipulate the history list. Each item in the list appears after a line number.
+The `history` command allows you to display or manipulate the history list. Each item in the list appears after a line number. The list corresponds to a hidden file in the home directory and can be opened in a text editor, such as nano. 
+
+$ `nano ~/.bash_history`
+
+
 The command has many options which are described below. 
 
 ## Basic command structure
@@ -16,13 +20,17 @@ $ `history [options]`
 The `-c` flag clears the entire history list by deleting all entries. 
 
 ### `-d offset`
-This option removes history at a given postion or "offset." The offset is the line number of the command in the history output that you want to remove. Negative offsets count backwards from the end of the history list.hist
-Combine -d with -2 to remove the command you just ran, for example:
+This option removes history at a given postion or "offset." The offset is the line number of the command that you want to remove. The following example removes line 252 from the history list:
 
- To remove sequential entires, use a hyphen to seperate the start and end of a given range  
+	history -d 252
+
+Negative offsets will count backwards from the end of the history list. If you make a mistake or run a command that you don't want to record in the history list, you might use: 
+
+	history -d -2
+
+To remove sequential entries, use a hyphen to seperate the start and end of a given range.
 
 	history -d START_NUMBER-END_NUMBER
-
 
 ### '-a'
 
@@ -40,23 +48,29 @@ The -r flag reads a history file and appends the contents to the current history
       
 ### '-n'	
 
-The -n option refers to 'number of entries.' When used with the history command, this option will return only the last 'n' commands. To show only the last 10 entries, for example, use:
+The -n option refers to a number of entries. When used with the history command, this option will return only the last 'n' commands. To show only the last 10 entries, for example, use:
 
 	history 10 
 
 ### '-w'
 
-The -w flag adds the current history list to the history file
+The -w flag adds the current history list to the history file.
     
 ### '-p'   
 
-The -p flag will perform a history expansion on each argument and display the result without storing it in the history list
+The -p flag will perform a history expansion on each argument and display the result without storing it in the history list. More simply, this flag allows you to print a command from the history list without executing it. 
      
 ### '-s'	
 
 The -s flag will store the arguments within the history list as a single entry
 
-## Search tools
+### '!'
+
+An exclamation point may also be used to interact with the history list. Run any commnand from the list by running ![line_number]. Search commands in the list by string with ![string]. For security reasons, you may add a :p argument to return a command using a '!' without executing it, for example:
+
+	!sudo:p
+
+## Additional Search tools
 
 ### Using 'history' with 'grep'
 
@@ -66,10 +80,9 @@ history | grep "ls"
 
 ### CTRL_R 
 
-Searching through the Command History ( CTRL-R )
-Use the CTRL-R key to perform a “reverse-i-search”. For example, if you wanted to use the command you used the last time you used snort, you would type:
+CTRL-R can be used to perform a “reverse-i-search”. For example, if you wanted to use the command from the last time you accessed an web server, you might search the name of the server. 
 
-CTRL-R then type “snort”.
+CTRL-R then type “apache2”.
 
 What you will see in the console window is:
 
@@ -79,12 +92,6 @@ After you have typed what you are looking for, use the CTRL-R key combination to
 Use CTRL-R repeatedly to find every reference to the string you've entered. Once you've found the command you're looking for, use [Enter] to execute it.
 
 Alternatively, using the right or left arrow keys will place the command on an actual command-line so you can edit it.
-
-
-## Using a loop to remove multiple entries
-
-## Examples
-
 
 ## Output
 
@@ -110,8 +117,9 @@ Alternatively, using the right or left arrow keys will place the command on an a
 	%T. Time (H:M:S format).
 	%c. Complete date and timestamp (Day-D-M-Y H:M:S format).
 
-## Modifiers for history capacity 
-The history size defaults to 500 commands. To modify, edit or add a HISTSIZE variable in the .bashrc file. For example: 
+### Modifiers for history capacity 
+
+The history size defaults to 500 commands. To modify, edit or add a HISTSIZE 	variable in the .bashrc file. For example: 
 
     HISTSIZE=1200
 
@@ -123,7 +131,6 @@ Either variable can also be set to -1, this will yield unlimited entries:
 
   	export HISTSIZE=-1
     export HISTFILESIZE=-1
-
 
 ##For more information about the history library, access the GNU Histroy Library manual using command:
 

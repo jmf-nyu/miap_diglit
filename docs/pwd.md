@@ -1,25 +1,14 @@
 # The pwd Command
 
 ## Summary 
-Command `pwd` _print working directory_ outputs the name of the directory you are currently in, called *working directory*.
+Command `pwd` stands for __print working directory__. It outputs the name of the directory you are currently in, called *working directory*.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `ls [options] [directory path]`
+$ `pwd`
 
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
-
-## Possible Flags
-
-### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
-
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
-
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+When navigating files and directories in the terminal, `pwd` shows where you are in the filesystem.
 
 ## Output
 The `ls` command has many different kinds of outputs as described below:

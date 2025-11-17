@@ -22,3 +22,5 @@ Click on a command below to learn more about its purpose and usage.
 * [wget](wget.md)
 * [mkdir](mkdir.md)
 * [hashdeep](hashdeep.md)
+* [pipes](pipe.md)
+* [pwd](pwd.md)

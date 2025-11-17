@@ -34,7 +34,7 @@ echo "Hello from my first BASH script!"
 
 
 
-![Bash_Script](/Users/haoranwang/Desktop/Computer homework /Class 10 /Bash/Bash_Script.png)
+![Bash example](Bash_Script.png)
 
 Save and exit the editor. 
 
@@ -83,6 +83,6 @@ $ bash hello.sh
 
 **This method will save you time when naming different scripts.**
 
-![Bash_CommandDisplay](/Users/haoranwang/Desktop/Computer homework /Class 10 /Bash/Bash_CommandDisplay.png)
+![Bash command output example](Bash_CommandDisplay.png)
 
 Go back to the [main list of commands](https://jmf-nyu.github.io/miap_diglit/)

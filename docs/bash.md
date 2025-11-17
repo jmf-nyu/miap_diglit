@@ -58,11 +58,11 @@ $ bash hello.sh
 Hello from my first BASH script!
 ```
 
-## Using tab completion with your script 
+## Using tab completion with script 
 
-After you create and save a script file (for example `hello.sh`), you can already use tab completion on its name **if you are in the same directory** as the file.
+After create and save a script file (for example `hello.sh`), you can already use tab completion on its name **if you are in the same directory** as the file.
 
-For example, if you ran:
+For example, if ran:
 
 ```bash
 $ nano hello.sh

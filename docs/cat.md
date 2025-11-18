@@ -4,7 +4,7 @@
 The `cat` command concatenates or displays files. The command has many options which are described below.
 ## Basic command structure
 `cat [flag] [file]`
-The cat command reads each File parameter in sequence and writes it to standard output. If you do not specify a file name, the cat command reads from standard input. You can also specify a file name of `-`(dash) for standard input..
+The cat command reads each File parameter in sequence and writes it to standard output. If you do not specify a file name, the cat command reads from standard input. You can also specify a file name of `-`(dash) for standard input.
 
 ## Possible Flags
 

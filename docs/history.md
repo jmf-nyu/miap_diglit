@@ -1,7 +1,7 @@
 # The history Command
 
 ## Summary 
-The `history` command allows you to display or manipulate the history list. Each item in the list appears after a line number. The list corresponds to a hidden file in the home directory and can be opened in a text editor such as nano. 
+The `history` command allows you to display and manipulate the history list. Each item in the list appears after a line number. The list corresponds to a hidden file in the home directory and can be opened in a text editor such as nano. 
 
 $ `nano ~/.bash_history`
 
@@ -135,3 +135,5 @@ Either variable can also be set to -1, this will yield unlimited entries:
 ##For more information about the history library, access the GNU Histroy Library manual using command:
 
 	man history
+
+Go back to the [main list of commands](index.md)

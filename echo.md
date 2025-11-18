@@ -1,19 +1,17 @@
 # The echo Command
 
 ## Summary 
-The `echo` command lists the contents of a directory including both files and directories. The command has many options which are described below. 
+The `echo` command writes input text to standard output. The command has many options which are described below. 
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `ls [options] [directory path]`
-
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
+$ `echo [option] [string]`
 
 ## Possible Flags
 
-### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+### `-e`
+The `-e` flag is used to enables the interpretation of backslash escapes.----- These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
 
 ### `-l`
 The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.

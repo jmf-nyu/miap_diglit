@@ -22,8 +22,11 @@ The `-quiet` option is useful only when verifying checksums. It prohibits printi
 
 ## Examples 
 * If you want to perform checksum on a single file, start going to the directory where your file is located at or simply specifying the file path and perform $ `md5sum [file]`
-  <img width="565" height="101" alt="Screenshot 2025-11-14 at 10 42 32 AM" src="https://github.com/user-attachments/assets/70a32de6-5e07-47fa-8f73-45e9ada182dd" />
+  
+  <img width="565" height="101" alt="md5sum example" src="https://github.com/user-attachments/assets/fe84e97a-9c08-4231-8373-d975fb015803" />
+
 * To get a checksum report for all the files in a directory, start going to the directory. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example also shown in the image above: $ `md5sum * > mdchecksums.txt`. It will then create a txt file named mdchecksums and contain all the checksums of the files in the directory. To view the result of the txt file, use nano mdchecksums.txt. Below is the content of the txt files generated.
-  <img width="566" height="207" alt="Screenshot 2025-11-14 at 10 42 22 AM" src="https://github.com/user-attachments/assets/b7d35018-924c-4aae-8480-33dee7809c27" />
+  
+  <img width="566" height="207" alt="md5sum directory example" src="https://github.com/user-attachments/assets/f4a7101f-f20c-41fa-afe3-67e21aa89022" />
 
 Go back to the [main list of commands](index.md)

@@ -29,11 +29,11 @@ The `touch` command, similar to other standard commands like `rm` and `chmod`, g
 
 To confirm that the timestamps have been updated, the `-ls -l` command can be used to show file details.
 
-![Screenshot of touch command specifying timestamps output] （https://github.com/kc6279/miap_diglit/blob/d55a285f550307f530bf96a18f3d004db6a294c1/docs/touch_timestampoutput.png）
+![Screenshot of touch command specifying timestamps output] （docs/touch_timestampoutput.png）
 
 ## Examples 📝
 * Create a new, empty file: `$ touch newfile.txt`
 * Create multiple files: `$ touch file1.txt file2.txt file3.txt`
-![Screenshot of touch command creating multiple files] （https://github.com/kc6279/miap_diglit/blob/d55a285f550307f530bf96a18f3d004db6a294c1/docs/touch_createmultiplefiles.png）
+![Screenshot of touch command creating multiple files] （docs/touch_createmultiplefiles.png）
 * Update the timestamps of an existing file using a reference file: `$ touch -r reference.txt existing.txt`
 * Specify a particular timestamp for a file's access and modification times: `$ touch -t 202511192359.00 existing.txt`

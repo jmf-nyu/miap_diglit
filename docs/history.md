@@ -34,10 +34,6 @@ The `-a` flag appends history lines from this session to the history file. This 
 
 	$ history -a my_project_commands.txt
 
-Save this file to a specific folder by adding a redirect, for example:
-
-	$ history -a my_project_comamnds.txt > path/to/folder
-
 ### `-r`
 
 The `-r` flag reads a history file and appends the contents to the current history list. This can be used to append a .txt file to the history list. 

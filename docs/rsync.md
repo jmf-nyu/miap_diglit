@@ -10,11 +10,11 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 
 $ `rsync [options] [source] [destination]`
 
-`OPTIONS: These are flags that modify rsync's behavior.`
+OPTIONS: These are flags that modify rsync's behavior.`
 
-`SOURCE: The path to the file or directory you want to copy or synchronize. This can be local or remote (e.g., user@remotehost:/path/to/source).`
+SOURCE: The path to the file or directory you want to copy or synchronize. This can be local or remote (e.g., user@remotehost:/path/to/source).`
 
-`DESTINATION: The path where you want to copy or synchronize the files. This can also be local or remote.`
+DESTINATION: The path where you want to copy or synchronize the files. This can also be local or remote.`
 
 
 ## Possible Flags
@@ -40,16 +40,40 @@ The `-n` (dry run) flag previews outcomes of rysnc without actually making any c
 ## Output
 The `rsync` command differs in outputs, depending on the options you decide to use:
 
-Note: The following command was done using my remote server. Files and folders are all from Class 5, and for the sake of this exercise, I have created an "rsync folder" (in my reote server).
+
+Note: The following command was done using my remote server. Files and folders are all from Class 5, and for the sake of this exercise, I have created an "rsyncfolder" (in my remote server).
+
 
 * **Output** with `-a,``-v``-P` flags, for local synchronization (archive mode, verbose, progress):
-![screenshot of -avP outputs](ls_no-flags.png)
 
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
+![screenshot of -avP outputs](rsync_ex1.1.png)
 
-## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+
+In this example, I used `rsync` to synchronize "Donation-demo" folder within my remote server, into another new folder titled "rsyncfolder."  
+
+
+The results can be seen here, where all my files from the "Donation-demo" folder are now in "rsyncfolder." 
+
+
+![screenshot of -avP server results](rsync_ex1.2.png)
+
+
+
+
+
+* **Output** with `-a,``-v``-P` flags, for local server to remote server synchronization (archive mode, verbose, progress):
+  
+![screenshot of local to remote -avP outputs](rsync_ex2.1.png)
+
+
+In this example, I used `rsync` to synchronize the "DigLit_rsync_screenshots" folder from my local server to my remote server.
+
+The results can be seen here, where after logging onto my remote server, I could see all my files listed out, including the "DigLit_rsync_screenshots" folder. 
+
+
+![screenshot of -avP server results](rsync_ex2.2.png)
+
+
+
 
 Go back to the [main list of commands](index.md)

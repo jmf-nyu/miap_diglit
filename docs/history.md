@@ -96,7 +96,7 @@ Alternatively, using the right or left arrow keys will place the command on an a
 
 The history command outputs a numbered list of commands, for example:
 
-		![screenshot of history output](history.png)
+![screenshot of history output](history.png)
 
 ### Using Date and Timestamps
 
@@ -120,11 +120,11 @@ The history command outputs a numbered list of commands, for example:
 	%T. Time (H:M:S format).
 	%c. Complete date and timestamp (Day-D-M-Y H:M:S format).
 
-		![screenshot of history output](histtimeformat.png)
+![screenshot of history output](histtimeformat.png)
 
 	## The results of the following change look like this:
 		
-		![screenshot of history output](historydate.png)
+![screenshot of history output](historydate.png)
 
 ### Modifiers for history capacity 
 

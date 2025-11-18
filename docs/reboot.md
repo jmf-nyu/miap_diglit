@@ -1,28 +1,26 @@
 # The Reboot Command
 
 ## Summary 
-The `reboot` command can be used to reboot a remote server.  
+The `reboot` command can be used to reboot a computer or remote server. It will notify logged-in users about the reboot. The command has several options which are described below.   
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `reboot [options] [directory path]`
+$ `reboot [options]`
 
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
 
 ## Possible Flags
+`-f`
+* The `-f` flag will force an immediate reboot without running normal shutdown procedures. This is best used only when absolutely necessary as it can cause significant issues.
 
+`--no-wall`
+* The `--no-wall` flag will reboot without notifying logged-in users. 
 
 ## Output
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
-
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
+* **Standard output** The `reboot` command usually does not have an output, as the result of the command should be the system beginning its reboot process. If "operation not permitted" is returned, you need `sudo` access. 
 
 ## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+* If you want to quickly reboot your server, run $ `sudo reboot`. You generally need `sudo` permissions to run `reboot`.
+* To force an immediate reboot, run $ `sudo reboot -f`. This command is usually a last resort. 
 
 Go back to the [main list of commands](index.md)
-

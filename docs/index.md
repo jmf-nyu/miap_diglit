@@ -24,3 +24,4 @@ Click on a command below to learn more about its purpose and usage.
 * [hashdeep](hashdeep.md)
 * [pipes](pipe.md)
 * [pwd](pwd.md)
+* [history](history.md)

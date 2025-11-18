@@ -10,11 +10,12 @@ $ `echo [option] [string]`
 
 ## Possible Flags
 
-### `-e`
-The `-e` flag is used to enables the interpretation of backslash escapes. This allows you to add additional flags in your text block to format the text. output----- These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+### `-n`
+The `-n` flag means it will not output the trailing newline.
 
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+### `-e`
+The `-e` flag is used to enable the interpretation of backslash escapes. This allows you to add additional flags in your text block to format the text output.
+
 
 ### `-h`
 When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.

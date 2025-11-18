@@ -117,6 +117,8 @@ Alternatively, using the right or left arrow keys will place the command on an a
 	%T. Time (H:M:S format).
 	%c. Complete date and timestamp (Day-D-M-Y H:M:S format).
 
+	![screenshot of history output](.png)
+
 ### Modifiers for history capacity 
 
 The history size defaults to 500 commands. To modify, edit or add a HISTSIZE 	variable in the .bashrc file. For example: 
@@ -132,7 +134,7 @@ Either variable can also be set to -1, this will yield unlimited entries:
   	export HISTSIZE=-1
     export HISTFILESIZE=-1
 
-##For more information about the history library, access the GNU Histroy Library manual using command:
+## For more information about the history library, access the GNU Histroy Library manual using command:
 
 	man history
 

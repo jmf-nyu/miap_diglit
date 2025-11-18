@@ -21,3 +21,6 @@ Click on a command below to learn more about its purpose and usage.
 * [apt](apt.md)
 * [wget](wget.md)
 * [mkdir](mkdir.md)
+* [hashdeep](hashdeep.md)
+* [pipes](pipe.md)
+* [pwd](pwd.md)

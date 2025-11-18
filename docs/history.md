@@ -18,25 +18,25 @@ The `-c` flag clears the entire history list by deleting all entries.
 ### `-d offset`
 This option removes history at a given postion or "offset." The offset is the line number of the command that you want to remove. The following example removes line 252 from the history list:
 
-	history -d 252
+	$ history -d 252
 
 Negative offsets will count backwards from the end of the history list. If you make a mistake or run a command that you don't want to record in the history list, you might use: 
 
-	history -d -2
+	$ history -d -2
 
 To remove sequential entries, use a hyphen to seperate the start and end of a given range.
 
-	history -d START_NUMBER-END_NUMBER
+	$ history -d START_NUMBER-END_NUMBER
 	
 ### `-a`
 
 The `-a` flag appends history lines from this session to the history file. This flag can be useful when you want to save commands from the current session to a seperate file. To do this you would add a file name, for example:
 
-	history -a my_project_commands.txt
+	$ history -a my_project_commands.txt
 
 Save this file to a specific folder by adding a redirect, for example:
 
-	history -a my_project_comamnds.txt > path/to/folder
+	$ history -a my_project_comamnds.txt > path/to/folder
 
 ### `-r`
 
@@ -46,7 +46,7 @@ The `-r` flag reads a history file and appends the contents to the current histo
 
 The `-n` option refers to a number of entries. When used with the history command, this option will return only the last 'n' commands. To show only the last 10 entries, for example, use:
 
-	history 10 
+	$ history 10 
 
 ### `-w`
 
@@ -64,7 +64,7 @@ The `-s` flag will store the arguments within the history list as a single entry
 
 An exclamation point may also be used to interact with the history list. Run any commnand from the list by combining an exclamation point with the line number or a text string. Add a `:p` argument to return a command using an exclamation point without executing it.
 
-	![string]:p
+	$ ![string]:p
 
 ## Additional Search tools
 
@@ -72,7 +72,7 @@ An exclamation point may also be used to interact with the history list. Run any
 
 When the `history` command is combined with grep, the returned list will only show lines containing a specific keyword or command. For example, the following command will only return entries where `ls` was used: 
 
-	history | grep "ls"
+	$ history | grep "ls"
 
 ### `CTRL-R` 
 
@@ -82,7 +82,7 @@ When the `history` command is combined with grep, the returned list will only sh
 
 What you will see in the console window is:
 
-	(reverse-i-search)`':
+	$ (reverse-i-search)`':
 	
 After you have typed what you are looking for, use the `CTRL-R` combination to scroll backward through the history. Once you've found the command you're looking for, use `[Enter]` to execute it.
 
@@ -137,6 +137,6 @@ Either variable can also be set to -1, this will yield unlimited entries:
 
 ## For more information about the history library, access the GNU Histroy Library manual using command:
 
-	man history
+	$ man history
 
 Go back to the [main list of commands](index.md)

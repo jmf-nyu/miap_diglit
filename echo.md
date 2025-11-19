@@ -39,8 +39,8 @@ The `echo` command has many different kinds of outputs as described below:
 
 ## Examples 
 * If you were working in an archive, you could use the echo command to log the date you started work on a specific project.
-* 
-![screenshot of echo command into file]<img width="803" height="56" alt="echo-to-file" src="https://github.com/user-attachments/assets/7a3dc2c1-fbb3-4099-8600-dfaf6c9fd167" />
+
+<img width="803" height="56" alt="echo-to-file" src="https://github.com/user-attachments/assets/7a3dc2c1-fbb3-4099-8600-dfaf6c9fd167" />
 
  
 * To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`

@@ -25,22 +25,21 @@ When -e is added, a variety of other sequences can be added on including:
 <img width="627" height="43" alt="echovariable" src="https://github.com/user-attachments/assets/c6b61dfa-f27c-4e24-a200-521fe178113e" />
 
 ## Output
-The `echo` command has many different kinds of outputs as described below:
+The `echo` command has different options for output locations as described below:
 
 **Output displayed in command line**
 
 
 **Output piped into a file**
-* **Standard output* with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
+* Example: You could use the echo command to log the date you started work on a specific project.
+
+<img width="803" height="56" alt="echo-to-file" src="https://github.com/user-attachments/assets/7a3dc2c1-fbb3-4099-8600-dfaf6c9fd167" />
 
 * **Output with `-l` flag*, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 
-* If you were working in an archive, you could use the echo command to log the date you started work on a specific project.
 
-<img width="803" height="56" alt="echo-to-file" src="https://github.com/user-attachments/assets/7a3dc2c1-fbb3-4099-8600-dfaf6c9fd167" />
 
  
 * To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`

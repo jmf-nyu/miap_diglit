@@ -35,6 +35,7 @@ To upload an image, you can add a file to the docs folder instead of simply drag
 
 ## For Reference
 GitHub guide to Markdown: <https://guides.github.com/features/mastering-markdown/>
+
 GitHub Group projects guide: <https://jmf-nyu.github.io/github-group-projects/>
 
 ## Make a Contribution

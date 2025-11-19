@@ -15,10 +15,10 @@ The `-n` flag means it will not output the trailing newline.
 
 ### `-e`
 The `-e` flag is used to enable the interpretation of backslash escapes. This allows you to add additional flags in your text block to format the text output.
-*When -e is added, a variety of other sequences can be added on including:
-*\t adds a horizontal tab
-*\v adds a vertical tab
-*\n adds a new line
+* When -e is added, a variety of other sequences can be added on including:
+* \t adds a horizontal tab
+* \v adds a vertical tab
+* \n adds a new line
 
 
 ### You can also use the echo command with variables

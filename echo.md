@@ -1,4 +1,4 @@
-# The echo Command
+# The Echo Command
 
 ## Summary 
 The `echo` command displays input text to standard output. It's often used in a shell script to log status, provide feedback to users, and for debugging. By default theoutput is displayed in the terminal but can be redirected to a file or piped to another process. The command has many options which are described below. 
@@ -15,10 +15,10 @@ The `-n` flag means it will not output the trailing newline.
 
 ### `-e`
 The `-e` flag is used to enable the interpretation of backslash escapes. This allows you to add additional flags in your text block to format the text output.
-When -e is added, a variety of other sequences can be added on including:
-\t adds a horizontal tab
-\v adds a vertical tab
-\n adds a new line
+*When -e is added, a variety of other sequences can be added on including:
+*\t adds a horizontal tab
+*\v adds a vertical tab
+*\n adds a new line
 
 
 ### You can also use the echo command with variables

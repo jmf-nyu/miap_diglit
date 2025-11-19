@@ -32,6 +32,7 @@ If you don't already have one, Set up an account on <https://github.com>. Save y
 
 ## For Reference
 GitHub guide to Markdown: <https://guides.github.com/features/mastering-markdown/>
+
 GitHub Group projects guide: <https://jmf-nyu.github.io/github-group-projects/>
 
 ## Make a Contribution

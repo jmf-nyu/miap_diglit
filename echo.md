@@ -4,9 +4,8 @@
 The `echo` command displays input text to standard output. It's often used in a shell script to log status, provide feedback to users, and for debugging. By default the output is displayed in the terminal but can be redirected to a file or piped to another process.
 
 ## Basic command structure
-For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `echo [option] [string]`
+`echo [option] [string]`
 
 ## Possible Flags
 
@@ -21,9 +20,8 @@ The `-e` flag is used to enable the interpretation of backslash escapes. This al
 * \n adds a new line
 <img width="627" height="40" alt="echo-e-n-option" src="https://github.com/user-attachments/assets/0942bd5b-f763-4831-8af6-8ba152d9ef30" />
 
-
-### You can also use the echo command with variables
-<img width="627" height="43" alt="echovariable" src="https://github.com/user-attachments/assets/c6b61dfa-f27c-4e24-a200-521fe178113e" />
+#### You can also use the echo command with variables
+<img width="509" height="40" alt="echo-variable" src="https://github.com/user-attachments/assets/94dcab7a-00c5-418a-ab1b-6d22025ca7de" />
 
 ## Output
 The `echo` command has different options for output locations as described below:
@@ -35,7 +33,7 @@ The `echo` command has different options for output locations as described below
 * Example: You could use the echo command to log the date you started work on a specific project.
 
 <img width="803" height="56" alt="echo-to-file" src="https://github.com/user-attachments/assets/7a3dc2c1-fbb3-4099-8600-dfaf6c9fd167" />
- 
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+
+These are just the simplest examples of how to use the 'echo' command, but it is a widely used and extremely versatile tool. 
 
 Go back to the [main list of commands](index.md)

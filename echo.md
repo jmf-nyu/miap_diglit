@@ -21,8 +21,8 @@ When -e is added, a variety of other sequences can be added on including:
 \n adds a new line
 
 
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+# You can also use the echo command with variables
+<img width="627" height="43" alt="echovariable" src="https://github.com/user-attachments/assets/c6b61dfa-f27c-4e24-a200-521fe178113e" />
 
 ## Output
 The `echo` command has many different kinds of outputs as described below:

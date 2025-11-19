@@ -28,10 +28,10 @@ If you don't already have one, Set up an account on <https://github.com>. Save y
 
 ## Checking the Results
 
+1. Check to make sure the pull request is approved. If it is not approved, you may need to make changes. Make your pull request a draft. Make the changes on your fork. Then resubmit the pull request.
+
 ## Uploading Images
 To upload an image, you can add a file to the docs folder instead of simply dragging the photo to your md page. 
-
-1. Check to make sure the pull request is approved. If it is not approved, you may need to make changes. Make your pull request a draft. Make the changes on your fork. Then resubmit the pull request.
 
 ## For Reference
 GitHub guide to Markdown: <https://guides.github.com/features/mastering-markdown/>

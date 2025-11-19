@@ -29,7 +29,7 @@ The `echo` command has different options for output locations as described below
 **Output displayed in command line**
 * This is the default ouput unless a different location is specified
 
-**Output piped into a file**
+**Output redirected into a file**
 * Example: You could use the echo command to log the date you started work on a specific project.
 
 <img width="803" height="56" alt="echo-to-file" src="https://github.com/user-attachments/assets/7a3dc2c1-fbb3-4099-8600-dfaf6c9fd167" />

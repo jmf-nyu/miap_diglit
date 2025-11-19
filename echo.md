@@ -21,7 +21,7 @@ When -e is added, a variety of other sequences can be added on including:
 \n adds a new line
 
 
-# You can also use the echo command with variables
+### You can also use the echo command with variables
 <img width="627" height="43" alt="echovariable" src="https://github.com/user-attachments/assets/c6b61dfa-f27c-4e24-a200-521fe178113e" />
 
 ## Output

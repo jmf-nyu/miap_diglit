@@ -19,6 +19,8 @@ The `-e` flag is used to enable the interpretation of backslash escapes. This al
 * \t adds a horizontal tab
 * \v adds a vertical tab
 * \n adds a new line
+<img width="627" height="40" alt="echo-e-n-option" src="https://github.com/user-attachments/assets/0942bd5b-f763-4831-8af6-8ba152d9ef30" />
+
 
 ### You can also use the echo command with variables
 <img width="627" height="43" alt="echovariable" src="https://github.com/user-attachments/assets/c6b61dfa-f27c-4e24-a200-521fe178113e" />

@@ -36,8 +36,6 @@ The `find` command has many different kinds of options as described below:
 * **Standard output with no file path** When you don't specify the file path, add a `.` to the beginning of the command
 ![screenshot of find output](https://media.geeksforgeeks.org/wp-content/uploads/20230817192915/Screenshot-(548).png)
 
-* **Output with path written flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 
 * If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.

@@ -32,11 +32,11 @@ d: Directory
 l: Symbolic link
 
 ## Output
-The `find` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
+The `find` command has many different kinds of options as described below:
+* **Standard output with no file path** When you don't specify the file path, add a `.` to the beginning of the command
 ![screenshot of find output](https://media.geeksforgeeks.org/wp-content/uploads/20230817192915/Screenshot-(548).png)
 
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
+* **Output with path written flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 

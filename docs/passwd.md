@@ -44,17 +44,18 @@ The `passwd` command has many different kinds of outputs as described below:
 
 * **Outputs with flags** with the `-l` flag paired with a userid, the `passwd` command locks the the password for the user. Users with a locked password cannot change their password.
 
+![screenshot of passwd with -l flag output](passwd_l-flag.png) 
 
-
-*
-* with the `-u` flag specific with a userid, the `passwd` command changes the password for the current user.
+* with the `-u` flag paired  with a userid, the `passwd` command changes the password for the current user.
 
 ![screenshot of passwd with -u flag output](passwd_u-flag.png) 
 
+* Here is the output a user will see after the `passwd` command with the `-e` flag has been run:
 
+![screenshot of passwd userview output](passwd_user-view.png) 
 
 ## Examples 
-* As an administator, if you needed to make quick changes to the passwords for users on your network, you could use the $ `passwd user1` to make necessary changes.
-* If your server has a user that you 
+* As administator, if you need to make quick changes to the passwords for users on your network, you could use the $ `passwd user1` to make necessary changes.
+* If your server has a user that you wish to limit access to, you could use $ `passwd -n 7 user1` to grant them access for only 1 week.
 
 Go back to the [main list of commands](index.md)

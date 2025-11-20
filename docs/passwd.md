@@ -42,9 +42,15 @@ The `passwd` command has many different kinds of outputs as described below:
 
 ![screenshot of passwd list output](passwd_no-flags.png) 
 
+* **Outputs with flags** with the `-l` flag paired with a userid, the `passwd` command locks the the password for the user. Users with a locked password cannot change their password.
 
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
+
+
+*
+* with the `-u` flag specific with a userid, the `passwd` command changes the password for the current user.
+
+![screenshot of passwd with -u flag output](passwd_u-flag.png) 
+
 
 
 ## Examples 

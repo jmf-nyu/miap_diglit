@@ -38,7 +38,7 @@ The `find` command has many different kinds of options as described below:
 
 
 ## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+* find /home/user -type f -name "*.txt" -mtime +7 -exec rm {} \;
+* This command searches the /home/user directory for regular files (-type f) ending with .txt (-name "*.txt") that were modified more than 7 days ago (-mtime +7), and then deletes them (-exec rm {} \;).
 
 Go back to the [main list of commands](index.md)

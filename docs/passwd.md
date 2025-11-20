@@ -40,6 +40,7 @@ The `-a` flag can only be used in conjunction with the `-S` flag; it displays ac
 The `passwd` command has many different kinds of outputs as described below:
 * **Standard output** with no flags or userid specified, the `passwd` command changes the password for the current user. 
 
+![screenshot of passwd list output](passwd_no-flags.png) 
 
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:

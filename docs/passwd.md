@@ -4,7 +4,7 @@
 The `passwd` command allows a user to set or change their password. It also allows superusers to change passwords for any other users. The command has many options which are described below. 
 
 ## Basic command structure
-For all descriptions below, the dollar sign indicates that BASH command prompt.
+For all descriptions below, the dollar sign indicates the BASH command prompt.
 
 $ `passwd [options] [userid]`
 
@@ -56,6 +56,6 @@ The `passwd` command has many different kinds of outputs as described below:
 
 ## Examples 
 * As administator, if you need to make quick changes to the passwords for users on your network, you could use the $ `passwd user1` to make necessary changes.
-* If your server has a user that you wish to limit access to, you could use $ `passwd -n 7 user1` to grant them access for only 1 week.
+* If you wanted to prompt a user to change their password, you could use $ `passwd -x 90 user1` to automatically expire their password after 90 days. 
 
 Go back to the [main list of commands](index.md)

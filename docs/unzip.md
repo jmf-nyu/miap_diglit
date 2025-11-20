@@ -11,7 +11,7 @@ unzip [options] filename.zip
 ## Possible Flags
 
 ### `-d dir`
-The `-d dir` Specifies the destination directory listing for extracting documents. This choice allows customers to choose a particular listing in which the contents of the ZIP record may be extracted.
+The `-d dir` Specifies the destination directory listing for extracting documents. This choice allows users to choose a particular listing in which the contents of the ZIP record may be extracted.
 
 ### `-l`
 The `-l` Lists the contents of the ZIP file without extracting them. It provides an introduction to files and directories in the archive, together with permissions, compression ratio, and amendment timestamps.
@@ -20,13 +20,13 @@ The `-l` Lists the contents of the ZIP file without extracting them. It provides
 Operates in quiet mode, suppressing normal output for the duration of extraction. This is beneficial when you want to extract files without displaying unnecessary information.
 
 ### '-o'
-Overwrites documents without prompting for confirmation. This option is available whilst you need to extract documents and replace current files without guide intervention.
+Overwrites documents without prompting for confirmation. This option is available whilst you need to extract documents and replace current files without guidance.
 
 ### '-p'
 Specifies a password for encrypted ZIP files. When handling password-protected archives, use this option to offer the desired password during extraction.
 
 ### '-e'
-Extracts files from the ZIP archive even while keeping the directory structure. This is useful if you want to keep the equal directory hierarchy as in the archive.
+Extracts files from the ZIP archive even while keeping the directory structure. This is useful if you want to keep the same directory hierarchy as in the archive.
 
 ### '-t'
 Tests the integrity of the ZIP archive, checking for any mistakes or corruption. It verifies whether or not the archive is legitimate before intending to extract.
@@ -37,10 +37,10 @@ Updates current files and adds new files from the ZIP archive. It guarantees tha
 ## Output
 The `unzip` command has many different kinds of outputs as described below:
 * **Basic Extraction** This command extracts all documents from the specified ZIP archive, putting them inside the cutting-edge operating listing. It is the simplest syntax for decompressing and retrieving the contents of a ZIP file:
-![screenshot of unzip output](unzipno-flag.png)
+![screenshot of unzip output](unzip no-flag.png)
 
 * **Output with `-l` flag**, To view the contents of a ZIP file without extracting:
-![screenshot of unzip list output](unzipl-flag.png)
+![screenshot of unzip list output](unzip l-flag.png)
 
 ## Examples 
 * Imagine you want to inspect the contents of 'archive.zip' without executing the extraction process.

@@ -14,14 +14,18 @@ Expression: Criteria like filenames or sizes.
 
 ## Possible Flags
 
-### `-name`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+### `-name "FILENAME"`
+Finds files or directories matching FILENAME (case-sensitive)
 
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+### `-iname`
+Similar to -name, but case-insensitive
 
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+### `-type TYPE`
+Finds files of a certain type (options below)
+
+f: Regular file
+d: Directory
+l: Symbolic link
 
 ## Output
 The `ls` command has many different kinds of outputs as described below:

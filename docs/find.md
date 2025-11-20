@@ -6,9 +6,11 @@ The `find` command does something
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `ls [options] [directory path]`
+$ `find [path] [options] [expression]]`
 
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
+Path: Where to start searching (e.g., ~/Documents).
+Options: Refine your search (e.g., -type for files/directories).
+Expression: Criteria like filenames or sizes.
 
 ## Possible Flags
 

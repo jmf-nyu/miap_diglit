@@ -1,7 +1,7 @@
 # The find command
 
 ## Summary 
-The `find` command does something
+The `find` finds files. By default, it outputs their path relative to where you ran find. But, in addition of providing you with advanced “filters” it actually allows you to run commands on each of those files.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
@@ -32,7 +32,7 @@ d: Directory
 l: Symbolic link
 
 ## Output
-The `ls` command has many different kinds of outputs as described below:
+The `find` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
 ![screenshot of ls output](https://media.geeksforgeeks.org/wp-content/uploads/20230817192915/Screenshot-(548).png)
 

@@ -6,7 +6,7 @@ The `find` finds files. By default, it outputs their path relative to where you 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$ `find [path] [options] [expression]]`
+$ `find [path] [options] [expression]`
 
 Path: Where to start searching (e.g., ~/Documents).
 

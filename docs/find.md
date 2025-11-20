@@ -1,4 +1,4 @@
-# The find Command
+# The find command
 
 ## Summary 
 The `find` command does something
@@ -14,7 +14,7 @@ Expression: Criteria like filenames or sizes.
 
 ## Possible Flags
 
-### `-a`
+### `-name`
 The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
 
 ### `-l`

@@ -9,7 +9,9 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 $ `find [path] [options] [expression]]`
 
 Path: Where to start searching (e.g., ~/Documents).
+
 Options: Refine your search (e.g., -type for files/directories).
+
 Expression: Criteria like filenames or sizes.
 
 ## Possible Flags
@@ -17,7 +19,7 @@ Expression: Criteria like filenames or sizes.
 ### `-name "FILENAME"`
 Finds files or directories matching FILENAME (case-sensitive)
 
-### `-iname`
+### `-iname "FILENAME"`
 Similar to -name, but case-insensitive
 
 ### `-type TYPE`

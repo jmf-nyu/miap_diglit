@@ -12,12 +12,13 @@ Note: If no option or format is given then the 'date' command will print the cur
 
 ## Possible Flags 
 
-### `d` 
-The `d` flag displays the given date/time string. The date displayed can be given as a word: today, yesterday, etc. or as a phrase: "Jan 12 2012" 
+### `-d` 
+The `-d` flag displays the given date/time string. The date displayed can be given as a word: today, yesterday, etc. or as a phrase: "Jan 12 2012" 
 <img width="343" height="58" alt="Screenshot 2025-11-18 at 8 53 05 PM" src="https://github.com/user-attachments/assets/7ced446b-239d-4532-9010-c9edc9d360b7" />
 
-### `r` 
-The `r` flag displays the time when a specified file was last modified. Use the filename or path/to/filename.
+
+### `-r` 
+The `-r` flag displays the time when a specified file was last modified. Use the filename or path/to/filename.
 <img width="489" height="74" alt="Screenshot 2025-11-18 at 9 09 09 PM" src="https://github.com/user-attachments/assets/c66d87c2-1203-4e48-bf54-c4a8b5793251" />
 
 ### `-s`

@@ -35,7 +35,7 @@ l: Symbolic link
 The `find` command has many different kinds of options as described below:
 * **Standard output with no file path** When you don't specify the file path, add a `.` to the beginning of the command
 ![screenshot of find output](https://media.geeksforgeeks.org/wp-content/uploads/20230817192915/Screenshot-(548).png)
-
+Use `.` after find to execute the command in the current directory 
 
 ## Examples 
 * find /home/user -type f -name "*.txt" -mtime +7 -exec rm {} \;

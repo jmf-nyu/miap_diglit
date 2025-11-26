@@ -30,13 +30,13 @@ The `-f` flag suppresses all error messages except usage messages.
 The `-h` flag changes the ownership of an encountered symbolic link and not that of the file or directory pointed to by the symbolic link. If the -h flag is not specified and a symbolic link is encountered, the chown command will change the ownership or the file or directory pointed to by the link, instead of the link itself.
 
 ### `-H`
-If the -R option is specified and a symbolic link referencing a file of type directory is specified on the command line, the chown command shall change the user ID (and group ID, if specified) of the directory referenced by the symbolic link and all files in the file hierarchy below it.
+If the -H option is specified and a symbolic link referencing a file of type directory is specified on the command line, the chown command shall change the user ID (and group ID, if specified) of the directory referenced by the symbolic link and all files in the file hierarchy below it.
 
 ### `-L`
-If the -R option is specified and a symbolic link referencing a file of type directory is specified on the command line or encountered during the traversal of a file hierarchy, the chown command shall change the user ID (and group ID, if specified) of the directory referenced by the symbolic link and all files in the file hierarchy below it.
+If the -L option is specified and a symbolic link referencing a file of type directory is specified on the command line or encountered during the traversal of a file hierarchy, the chown command shall change the user ID (and group ID, if specified) of the directory referenced by the symbolic link and all files in the file hierarchy below it.
 
 ### `-P`
-If the -R option is specified and a symbolic link is specified on the command line or encountered during the traversal of a file hierarchy, the chown command shall change the owner ID (and group ID, if specified) of the symbolic link if the system supports this operation. The chown command shall not follow the symbolic link to any other part of the file hierarchy.
+If the -P option is specified and a symbolic link is specified on the command line or encountered during the traversal of a file hierarchy, the chown command shall change the owner ID (and group ID, if specified) of the symbolic link if the system supports this operation. The chown command shall not follow the symbolic link to any other part of the file hierarchy.
 
 ### `-R`
 If the -R flag is specified, the chown command descends the directories recursively, changing the ownership for each file. When a symbolic link is encountered and the link points to a directory, the ownership of that directory is changed the but directory is not further transversed. When the `-h` flag is also specified and a symbolic link is encountered, the ownership of that link is changed but not the file or directory it points to.  If the -h, -H, -L or -P flags are not also specified, when a symbolic link is encountered and the link points to a directory, the group ownership of that directory is changed but the directory is not traversed further.

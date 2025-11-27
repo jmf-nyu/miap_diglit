@@ -28,3 +28,4 @@ Click on a command below to learn more about its purpose and usage.
 * [history](history.md)
 * [touch](touch.md)
 * [echo](echo.md)
+* [chown](chown.md)

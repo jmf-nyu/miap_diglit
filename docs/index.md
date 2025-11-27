@@ -31,3 +31,5 @@ Click on a command below to learn more about its purpose and usage.
 * [chown](chown.md)
 * [find](find.md)
 * [passwd](passwd.md)
+* [date](date.md)
+* [bash scripting](bash_scripts.md)

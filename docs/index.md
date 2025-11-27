@@ -30,3 +30,4 @@ Click on a command below to learn more about its purpose and usage.
 * [echo](echo.md)
 * [chown](chown.md)
 * [find](find.md)
+* [passwd](passwd.md)

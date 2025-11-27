@@ -27,3 +27,4 @@ Click on a command below to learn more about its purpose and usage.
 * [pwd](pwd.md)
 * [history](history.md)
 * [touch](touch.md)
+* [echo](echo.md)

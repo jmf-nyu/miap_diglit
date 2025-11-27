@@ -29,3 +29,4 @@ Click on a command below to learn more about its purpose and usage.
 * [touch](touch.md)
 * [echo](echo.md)
 * [chown](chown.md)
+* [find](find.md)

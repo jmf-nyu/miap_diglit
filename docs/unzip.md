@@ -37,10 +37,10 @@ Updates current files and adds new files from the ZIP archive. It guarantees tha
 ## Output
 The `unzip` command has many different kinds of outputs as described below:
 * **Basic Extraction** This command extracts all documents from the specified ZIP archive, putting them inside the cutting-edge operating listing. It is the simplest syntax for decompressing and retrieving the contents of a ZIP file:
-![screenshot of unzip output](/images/unzipno-flag.png)
+![screenshot of unzip output](images/unzipno-flag.png)
 
 * **Output with `-l` flag**, To view the contents of a ZIP file without extracting:
-![screenshot of unzip list output](/images/unzipl-flag.png)
+![screenshot of unzip list output](images/unzipl-flag.png)
 
 ## Examples 
 * Imagine you want to inspect the contents of 'archive.zip' without executing the extraction process.

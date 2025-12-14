@@ -44,7 +44,7 @@ The `rsync` command differs in outputs, depending on the options you decide to u
 Note: The following command was done using my remote server. Files and folders are all from Class 5, and for the sake of this exercise, I have created an "rsyncfolder" (in my remote server).
 
 
-* **Output** with `-a,``-v``-P` flags, for local synchronization (archive mode, verbose, progress):
+* **Output** with `-a,` `-v` `-P` flags, for local synchronization (archive mode, verbose, progress):
 
 ![screenshot of -avP outputs](rsync_ex1.1.png)
 
@@ -61,7 +61,7 @@ The results can be seen here, where all my files from the "Donation-demo" folder
 
 
 
-* **Output** with `-a,``-v``-P` flags, for local server to remote server synchronization (archive mode, verbose, progress):
+* **Output** with `-a,` `-v` `-P` flags, for local server to remote server synchronization (archive mode, verbose, progress):
   
 ![screenshot of local to remote -avP outputs](rsync_ex2.1.png)
 

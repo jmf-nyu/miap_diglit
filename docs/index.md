@@ -34,3 +34,4 @@ Click on a command below to learn more about its purpose and usage.
 * [date](date.md)
 * [bash scripting](bash_scripts.md)
 * [reboot](reboot.md)
+* [unzip](unzip.md)

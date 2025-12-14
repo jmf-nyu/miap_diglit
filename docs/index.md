@@ -26,6 +26,7 @@ Click on a command below to learn more about its purpose and usage.
 * [pipes](pipe.md)
 * [pwd](pwd.md)
 * [history](history.md)
+* [rsync](rsync.md)
 * [touch](touch.md)
 * [echo](echo.md)
 * [chown](chown.md)

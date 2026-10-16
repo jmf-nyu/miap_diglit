@@ -10,27 +10,22 @@ $ `kill [options] PID`
 
 Note: PIDs are numerical values that are assigned automatically, when running the `ps` command in terminal, the PID appears in the first column. That numerical value can then be used in the `kill`. 
 
-## Possible Flags
+## Possible Signals
+### `-9`
+The `-9` flag causes a force kill, a command that cannot be ignored by the process.
 
-### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+### `-STOP`
+The `-STOP` flag freezes a process in place, causing it to stop any CPU use.
 
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+### `-CONT`
+The `-CONT` flag continues a frozen process, causing it to resume.
 
 ### `-h`
 When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
 
-## Output
-The `ls` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
-
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+<img width="481" height="114" alt="Screenshot 2026-10-15 at 8 31 57 PM" src="https://github.com/user-attachments/assets/acf2c2af-71c9-455b-a644-59ede28cca15" />
+
 
 Go back to the [main list of commands](index.md)

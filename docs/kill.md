@@ -20,9 +20,6 @@ The `-STOP` flag freezes a process in place, causing it to stop any CPU use.
 ### `-CONT`
 The `-CONT` flag continues a frozen process, causing it to resume.
 
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
-
 
 ## Examples 
 <img width="481" height="114" alt="Screenshot 2026-10-15 at 8 31 57 PM" src="https://github.com/user-attachments/assets/acf2c2af-71c9-455b-a644-59ede28cca15" />

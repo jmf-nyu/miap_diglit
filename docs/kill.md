@@ -10,7 +10,7 @@ $ `kill [options] PID`
 
 Note: PIDs are numerical values that are assigned automatically, when running the `ps` command in terminal, the PID appears in the first column. That numerical value can then be used in the `kill`. 
 
-## Possible Signals
+## Possible Options
 ### `-9`
 The `-9` flag causes a force kill, a command that cannot be ignored by the process.
 

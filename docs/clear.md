@@ -8,23 +8,23 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 
 $ `clear`
 
-Note: the 'clear' command does not delete your command history, but it erases your scrollback history. It ignores any command line that may be present. 
+Note: the 'clear' command does not delete your command history, but it erases your scrollback history. It also ignores any command line that may be present. 
 
 ## Possible Flags
 
-### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+### `-x`
+The `-x` flag clears the visible screen but does not clear the scrollback buffer. This allows you to keep your terminal history by scrolling up or pressing Page Up. 
 
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+### `-T type`
+The `-T type` flag specifies the specific terminal type instead of using the environment variable. (`TERM` `LINES``COLUMNS`)
 
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+### `-V`
+The  `V` flag reports the version of `ncurses` associated with the program being used by clear.
 
 ## Output
 The `ls` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
+* **Standard output** with no flags, which clears the visible text on the terminal screen:
+![screenshot of clear output](clearcommandscreenshot.png)
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)

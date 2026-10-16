@@ -17,10 +17,10 @@ It is possible to use multiple flags at a time.
 The `-m` flag sorts the output by memory usage, instead of the combination of controlling terminal and process ID.
 
 ### `-A`
-The 'A' flag displays information about other users' processes, including those without controlling terminals.
+The `-A` flag displays information about other users' processes, including those without controlling terminals.
 
-### `-h`
-When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.
+### `-l`
+The `-l` flag displays information associated with the following keywords: uid, pid, ppid, cpu, pri, nice, vsz, rss, wchan, state, tt, time and command.
 
 ## Output
 The `ls` command has many different kinds of outputs as described below:

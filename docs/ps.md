@@ -1,7 +1,7 @@
 # The ps Command
 
 ## Summary 
-`ps` is the command for process status. The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals.
+`ps` is the command for process status. 'ps' will return information about processes running on your computer.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
@@ -24,7 +24,7 @@ The `-l` flag displays information associated with the following keywords: uid, 
 
 ## Output
 The `ps` command has many different kinds of outputs as described below:
-* **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
+* **Standard output** with no flags, which displays processes running in your terminal.
 ![screenshot of ps output](ps_standard_output.png)
 
 * **Output with `-m` flag**, which displays processes sorted by memory usage.

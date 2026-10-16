@@ -24,6 +24,15 @@ Displays the files that contain the given pattern.
 ### `-v'
 Displays the the lines that do **not** match the given pattern.
 
+## Output
+The `grep` command has many different kinds of outputs as described below:
+* **Standard output** with no flags, which displays the lines containing the word, phrase, or pattern:
+![screenshot of grep output]()
+)
+
+* **Output with `-c` flag**, which displays the number of lines containing the word, phrase, or pattern:
+![screenshot of grep count output]()
+
 ## Examples 
 
 

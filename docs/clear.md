@@ -1,7 +1,7 @@
 # The clear Command
 
 ## Summary 
-The `clear` command removes all the visible text and outputs from your current terminal window, in other words, it clears your terminal. It looks in the environment for the terminal type and then in the termini database to determine how to clear the screen.
+The `clear` command removes all the visible text and outputs from your current terminal window, in other words, it clears your terminal. It looks in the environment for the terminal type and then in the terminfo database to determine how to clear the screen.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

@@ -36,3 +36,4 @@ Click on a command below to learn more about its purpose and usage.
 * [bash scripting](bash_scripts.md)
 * [reboot](reboot.md)
 * [unzip](unzip.md)
+* [test](test.md)

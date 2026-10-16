@@ -26,11 +26,8 @@ The `ls` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which clears the visible text on the terminal screen:
 ![screenshot of clear output](clearcommandscreenshot.png)
 
-* **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
-![screenshot of ls list output](ls_l-flag.png)
 
 ## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+* If you want to clean up your window and 'start over,' `clear` is a useful command for de-cluttering your workspace.
 
 Go back to the [main list of commands](index.md)

@@ -28,7 +28,7 @@ The `ps` command has many different kinds of outputs as described below:
 ![screenshot of ps output](ps_standard_output.png)
 
 * **Output with `-m` flag**, which displays processes sorted by memory usage.
-![screenshot of ls list output](ls_l-flag.png)
+![screenshot of ps output sorted by memory usage](ps_m-output.png)
 
 ## Examples 
 * If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.

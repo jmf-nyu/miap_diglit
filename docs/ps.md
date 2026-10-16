@@ -11,6 +11,7 @@ $`ps[option]`
 Note: If you do not specify an option using a flag, running `ps` will show you the current processes in your terminal session.
 
 ## Possible Flags
+It is possible to use multiple flags at a time. 
 
 ### `-a`
 The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.

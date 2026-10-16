@@ -13,11 +13,11 @@ Note: If you do not specify an option using a flag, running `ps` will show you t
 ## Possible Flags
 It is possible to use multiple flags at a time. 
 
-### `-a`
-The `-a` flag displays information about other users' processes as well as your own.
+### `-m`
+The `-m` flag sorts the output by memory usage, instead of the combination of controlling terminal and process ID.
 
-### `-t`
-The `-t` flag displays information about processes attached to the specified terminal devices.
+### `-A`
+The 'A' flag displays information about other users' processes, including those without controlling terminals.
 
 ### `-h`
 When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.

@@ -14,10 +14,10 @@ Note: If you do not specify an option using a flag, running `ps` will show you t
 It is possible to use multiple flags at a time. 
 
 ### `-a`
-The `-a` flag shows files that are normally hidden by BASH. These are files that begin with a `.` such as [.DS_Store](https://en.wikipedia.org/wiki/.DS_Store), [.bashrc](https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts), or .bash_history.
+The `-a` flag displays information about other users' processes as well as your own.
 
-### `-l`
-The `-l` flag gives a column view of files and directories. It also gives information about those files and directories including permissions, last date modified and size.
+### `-t`
+The `-t` flag displays information about processes attached to the specified terminal devices.
 
 ### `-h`
 When used in combination with the `-l` flag, the `-h` flag displays file size in human-readable units such as kilobytes, megabytes, and gigabytes.

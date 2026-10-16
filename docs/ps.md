@@ -23,9 +23,9 @@ The `-A` flag displays information about other users' processes, including those
 The `-l` flag displays information associated with the following keywords: uid, pid, ppid, cpu, pri, nice, vsz, rss, wchan, state, tt, time and command.
 
 ## Output
-The `ls` command has many different kinds of outputs as described below:
+The `ps` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ls output](ls_no-flags.png)
+![screenshot of ps output](ps_standardoutput.png)
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)

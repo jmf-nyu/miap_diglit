@@ -31,7 +31,6 @@ The `ps` command has many different kinds of outputs as described below:
 ![screenshot of ps output sorted by memory usage](ps_m-output.png)
 
 ## Examples 
-* If you want to see hidden files in a nice list format run $ `ls -la ~`. The `~` would indicate your home folder.
-* To get a the contents of an entire directory structure starting at a parent folder: $ `ls -alRt`. If you'd like, you can use a redirect, such as `>` to send the output to a text file. Here's an example: $ `ls -alRt ~/Desktop > ~/Desktop/report.txt`
+* To get a comprehensive list of all processes currently running on your system, use `ps aux`.
 
 Go back to the [main list of commands](index.md)

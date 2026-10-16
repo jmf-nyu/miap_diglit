@@ -25,7 +25,7 @@ The `-l` flag displays information associated with the following keywords: uid, 
 ## Output
 The `ps` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which displays the names of directories and files within the directory where the command is run:
-![screenshot of ps output](ps_standardoutput.png)
+![screenshot of ps output](ps_standard_output.png)
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)

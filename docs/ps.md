@@ -8,7 +8,7 @@ For all descriptions below, the dollar sign indicates that BASH command prompt.
 
 $`ps[option]`
 
-Note: If you do not specify a directory path, running `ps` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
+Note: If you do not specify an option using a flag, running `ps` will show you the current processes in your terminal session.
 
 ## Possible Flags
 

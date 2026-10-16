@@ -27,13 +27,9 @@ Displays the the lines that do **not** match the given pattern.
 ## Output
 The `grep` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which displays the lines containing the word, phrase, or pattern:
-![screenshot of grep output]()
-)
+![screenshot of grep output](grepoutput1.png)
 
 * **Output with `-c` flag**, which displays the number of lines containing the word, phrase, or pattern:
-![screenshot of grep count output]()
-
-## Examples 
-
+![screenshot of grep count output](grepoutput2.png)
 
 Go back to the [main list of commands](index.md)

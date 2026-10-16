@@ -6,9 +6,9 @@
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-$`ps`
+$`ps[option]`
 
-Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
+Note: If you do not specify a directory path, running `ps` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
 
 ## Possible Flags
 

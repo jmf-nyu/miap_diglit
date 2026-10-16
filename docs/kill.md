@@ -1,4 +1,4 @@
-# The ls Command
+# The kill Command
 
 ## Summary 
 The `kill` command sends a signal to terminate a process by specifying its PID (process ID), which you can find with the command `ps`. 

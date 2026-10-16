@@ -1,7 +1,7 @@
 # The ps Command
 
 ## Summary 
-`ps` is the command for process status. 'ps' will return information about processes running on your computer.
+`ps` is the command for process status. `ps` will return information about processes running on your computer.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

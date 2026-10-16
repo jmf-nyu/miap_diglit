@@ -15,13 +15,13 @@ $ `grep [options] pattern [file]`
 ### `-i`
 Perform case insensitive matching.  By default, grep is case sensitive.
 
-### `-c'
+### `-c`
 Displays the number of lines that match the given pattern.
 
-### `-l'
+### `-l`
 Displays the files that contain the given pattern.
 
-### `-v'
+### `-v`
 Displays the the lines that do **not** match the given pattern.
 
 ## Output Examples

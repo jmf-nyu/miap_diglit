@@ -1,9 +1,7 @@
 # The ps Command
 
 ## Summary 
-'ps' is the command for process status.
-
-The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals.
+`ps` is the command for process status. The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.

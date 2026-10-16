@@ -24,7 +24,7 @@ The  `V` flag reports the version of `ncurses` associated with the program being
 ## Output
 The `ls` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which clears the visible text on the terminal screen:
-![screenshot of clear output](clearcommandscreenshot.png)
+![screenshot of clear output](clearcommand screenshot.png)
 
 * **Output with `-l` flag**, which displays directories and files in a list form with metadata in colums:
 ![screenshot of ls list output](ls_l-flag.png)

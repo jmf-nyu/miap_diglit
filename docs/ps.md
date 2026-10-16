@@ -1,12 +1,14 @@
 # The ps Command
 
 ## Summary 
-The `ps` command lists the contents of a directory including both files and directories. The command has many options which are described below. 
+'ps' is the command for process status.
+
+The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals.
 
 ## Basic command structure
 For all descriptions below, the dollar sign indicates that BASH command prompt.
 
-'ps'
+$'ps'
 
 Note: If you do not specify a directory path, running `ls` will show you the contents of the current directory you are in within your terminal window, i.e., your current working directory.
 

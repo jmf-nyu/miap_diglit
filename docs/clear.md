@@ -16,7 +16,7 @@ Note: the 'clear' command does not delete your command history, but it erases yo
 The `-x` flag clears the visible screen but does not clear the scrollback buffer. This allows you to keep your terminal history by scrolling up or pressing Page Up. 
 
 ### `-T type`
-The `-T type` flag specifies the specific terminal type instead of using the environment variable. (`TERM` `LINES``COLUMNS`)
+The `-T type` flag specifies the specific terminal type instead of using the environment variable. (`TERM``LINES``COLUMNS`)
 
 ### `-V`
 The  `V` flag reports the version of `ncurses` associated with the program being used by clear.

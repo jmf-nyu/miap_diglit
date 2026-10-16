@@ -22,7 +22,7 @@ The `-T type` flag specifies the specific terminal type instead of using the env
 The  `V` flag reports the version of `ncurses` associated with the program being used by clear.
 
 ## Output
-The `ls` command has many different kinds of outputs as described below:
+The `clear` command has many different kinds of outputs as described below:
 * **Standard output** with no flags, which clears the visible text on the terminal screen:
 ![screenshot of clear output](clearcommandscreenshot.png)
 

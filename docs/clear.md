@@ -24,8 +24,8 @@ The  `V` flag reports the version of `ncurses` associated with the program being
 ## Output
 The `clear` command has an output as described below:
 * **Standard output** with no flags, which clears the visible text on the terminal screen:
-![screenshot of clear output](clearcommandscreenshot.png)
-
+![screenshot of clear output before](clearcommandscreenshot.png)
+![screenshot of clear output after](clearcommandscreenshotafter.png)
 
 ## Examples 
 * If you want to clean up your window and 'start over,' `clear` is a useful command for de-cluttering your workspace.

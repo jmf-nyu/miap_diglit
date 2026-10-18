@@ -1,4 +1,4 @@
-# The ls Command
+# The wget Command
 
 ## Summary 
 The `wget` that retrieves files (downloads) from a URL through a variety of internet protocols. Those protocols include HTTP, HTTPS, FTP and FTPS. `wget` has a variety of options that allow the user a lot of choice when downloading files. The URL must be a direct link to the file, otherwise `wget` will download the .html of the site that is hosting the file.

@@ -1,11 +1,11 @@
 # The sleep Command
 
 ## Summary 
-The 'sleep' command will pause the execution of a function in Terminal for a set amount of time. 
+The `sleep` command will pause the execution of a function in Terminal for a set amount of time. 
 
 ## Basic command structure 
 
-sleep number[unit] [...]
+`sleep number[unit] [...]`
 
 Numbers can be expressed as positive integers and decimals. i.e. 5, 3, 427, 10.2. 
 
@@ -21,7 +21,7 @@ There won't be an exact output, but the terminal window will look as if it is lo
 
 ## Use case
 
-Sleep can be useful if you want to delay a command being run by Terminal. The syntax will change slightly to do this: 
+`sleep` can be useful if you want to delay a command being run by Terminal. The syntax will change slightly to do this: 
 
 ![screenshot of command delay](sleepcmdwait.png)
 

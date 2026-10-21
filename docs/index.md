@@ -37,3 +37,4 @@ Click on a command below to learn more about its purpose and usage.
 * [reboot](reboot.md)
 * [unzip](unzip.md)
 * [grep](grep.md)
+* [sleep](sleep.md)
